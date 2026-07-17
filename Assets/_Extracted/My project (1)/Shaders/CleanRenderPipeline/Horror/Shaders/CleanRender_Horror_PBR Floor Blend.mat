@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CleanRender_Horror_PBR Floor Blend
+  m_Shader: {fileID: 4800000, guid: e5e826257d981d04d9a52d38f1218f84, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _DIRT_ON
+  - _USE_LOCAL_TOON
+  - _WATER_STAIN_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: ba1332e65f171324fbca2cd513c323d3, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMapA:
+        m_Texture: {fileID: 2800000, guid: 6d4a458f1be634143b5da5b0b871d277, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMapB:
+        m_Texture: {fileID: 2800000, guid: ba1332e65f171324fbca2cd513c323d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: eb6d4af9f032f0a42b499c6c90069f2c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMapA:
+        m_Texture: {fileID: 2800000, guid: e80d71ebd5c269e4caeeb12e66054d90, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMapB:
+        m_Texture: {fileID: 2800000, guid: eb6d4af9f032f0a42b499c6c90069f2c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: ba1332e65f171324fbca2cd513c323d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlickerMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: a81b5a83443c8487bb87c0a3f2ed61be, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: 2166d1f2ff3744c47a60b6906da89cb7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _BaseScale: 0.2
+    - _BlendEdge: 0.05
+    - _BlendNoiseScale: 0.1
+    - _BlendThreshold: 0.75
+    - _BloodEdge: 0.08
+    - _BloodScale: 0.05
+    - _BloodSmoothness: 0.85
+    - _BloodThreshold: 0.743
+    - _BloodWetness: 0
+    - _BumpScale: 1
+    - _BumpScaleA: 1
+    - _BumpScaleB: 1
+    - _CeilingStainThreshold: 0.6
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DirtAmount: 1
+    - _DirtRoughness: 0.85
+    - _DirtScale: 0.05
+    - _DripScale: 0.8
+    - _DripSpeed: 0.25
+    - _Emission: 0
+    - _EnableBlood: 0
+    - _EnableCeilingStain: 0
+    - _EnableDirt: 1
+    - _EnableDrip: 0
+    - _EnableEmission: 0
+    - _EnableFlicker: 0
+    - _EnablePulse: 0
+    - _EnableSSS: 0
+    - _EnableVeins: 0
+    - _EnableWaterStain: 1
+    - _EnableWet: 0
+    - _FlickerSpeed: 25
+    - _FresnelOutline: 0
+    - _Metallic: 0
+    - _NormalStrength: 1.21
+    - _OcclusionStrength: 1
+    - _OutlineSmoothness: 0.01
+    - _OutlineThreshold: 0.8
+    - _PulseAmplitude: 0.015
+    - _PulseEmissionStrength: 0.5
+    - _PulseRate: 1.2
+    - _PulseScale: 1
+    - _PulseSpeed: 1
+    - _PulseStrength: 0.15
+    - _RimPower: 6
+    - _SSSDistortion: 0.5
+    - _SSSStrength: 1.2
+    - _ScaleB: 0.5
+    - _Smoothness: 0.5
+    - _SmoothnessA: 1
+    - _SmoothnessB: 1
+    - _SmoothnessBase: 0.25
+    - _StainHeight: 0.3
+    - _StainNoiseScale: 0.6
+    - _StainSmoothness: 0.7
+    - _StainSoftness: 0.15
+    - _Threshold: 0
+    - _TriSharpness: 10
+    - _UseLocalToon: 1
+    - _VeinScale: 0.1
+    - _VeinThickness: 0.3
+    - _WetAmount: 0.5
+    - _WetDarken: 0.2
+    - _WetSmoothness: 0.8
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColorA: {r: 0.26415092, g: 0.120011725, b: 0.048593808, a: 1}
+    - _BaseColorB: {r: 0.34999996, g: 0.29999998, b: 0.24999997, a: 1}
+    - _BloodColor: {r: 0.5754717, g: 0.36164626, b: 0.3013083, a: 1}
+    - _DirtColor: {r: 0.1509434, g: 0.047267377, b: 0.03773585, a: 1}
+    - _DriedBloodColor: {r: 0.34117648, g: 0.19474941, b: 0, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FlickerColor: {r: 1, g: 0.95, b: 0.8, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _PulseEmission: {r: 0.6, g: 0.05, b: 0.02, a: 1}
+    - _RimColor: {r: 0.39999998, g: 0.37999994, b: 0.45, a: 0.3}
+    - _SSSColor: {r: 0.8, g: 0.14999998, b: 0.049999982, a: 1}
+    - _ShadowColor: {r: 0.17999998, g: 0.15999997, b: 0.19999996, a: 1}
+    - _StainColor: {r: 0.34999996, g: 0.31999996, b: 0.24999997, a: 1}
+    - _VeinColor: {r: 0.29999998, g: 0.049999982, b: 0.09999997, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

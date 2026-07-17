@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd65622d9fd5bcf75fc9a50b9e567164, type: 3}
+  m_Name: OutlineSettings
+  m_EditorClassIdentifier: Assembly-CSharp::CleanRenderPipeline.InvertHull.OutlineGlobalSettings
+  outlineEnabled: 1
+  globalWidth: 1
+  globalColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeStartDistance: 0
+  fadeEndDistance: 120
+  frustumCullMargin: 5
+  updateInterval: 8
+  alwaysUseFade: 1
+  vrNearClip: 0.01
+  desktopMode: 2
