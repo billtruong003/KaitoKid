@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8444d6346af8e437da293b2f981c327b, type: 3}
+  m_Name: MaterialSoundDatabase
+  m_EditorClassIdentifier: 
+  materialSoundMappings:
+  - materialType: 0
+    VFXStepID: 
+    soundClips:
+    - {fileID: 8300000, guid: 647840f94c9aa41b698708da8fd48ced, type: 3}
+  - materialType: 1
+    VFXStepID: 
+    soundClips:
+    - {fileID: 8300000, guid: bd6c81a1b41c64b6e9cdb2cf7ddea991, type: 3}
+    - {fileID: 8300000, guid: e011f64856377425cb397454b20dd85f, type: 3}
+  - materialType: 2
+    VFXStepID: 
+    soundClips:
+    - {fileID: 8300000, guid: e7fda2e8dba004b0aa2b860e7322ffa8, type: 3}
+  - materialType: 3
+    VFXStepID: 
+    soundClips:
+    - {fileID: 8300000, guid: 78dd55aac24a24801b41d6ed2f810d51, type: 3}
+  - materialType: 4
+    VFXStepID: 
+    soundClips:
+    - {fileID: 8300000, guid: 092f3c70e7b3b4b1294aa2066ee4c5b4, type: 3}
+  - materialType: 5
+    VFXStepID: 
+    soundClips:
+    - {fileID: 8300000, guid: eb213f5f3d3244f699f79725a3533c98, type: 3}
+  - materialType: 6
+    VFXStepID: 
+    soundClips:
+    - {fileID: 8300000, guid: ac58c160263d140e8b373b94091f1eec, type: 3}
+  - materialType: 7
+    VFXStepID: 
+    soundClips:
+    - {fileID: 8300000, guid: 6963b70275f4d42628900e2ef0b459c1, type: 3}
+  - materialType: 8
+    VFXStepID: 
+    soundClips:
+    - {fileID: 8300000, guid: 9e04e38f18ce34ec4a731268f6515cc8, type: 3}
+  - materialType: 8
+    VFXStepID: 
+    soundClips:
+    - {fileID: 8300000, guid: 084b7d9786f624ee0a434fa0b4b5890f, type: 3}
+    - {fileID: 8300000, guid: b45ececd4ba134d37ac2f1acdac453ff, type: 3}
+    - {fileID: 8300000, guid: efd21404acdb14980846d3f5ad54749c, type: 3}
+    - {fileID: 8300000, guid: 8828c4e0385ba46a9bc513369185af58, type: 3}
+    - {fileID: 8300000, guid: 5def3257dec834b3b8a2c45a96b38320, type: 3}
+    - {fileID: 8300000, guid: e87669b84d13d4e7b95f5b2245111e30, type: 3}
+    - {fileID: 8300000, guid: 3d7b7b3efc33b476cb419a797df1354c, type: 3}
+    - {fileID: 8300000, guid: e77f615b40a3e400fa3d7d959cc352ac, type: 3}
+    - {fileID: 8300000, guid: 0f7baf6b36c3f4968b47be55330b7a10, type: 3}
+    - {fileID: 8300000, guid: 63f6b50b9157f4852ac994f16ea1352c, type: 3}
+    - {fileID: 8300000, guid: c73af620c53d44fada9e1c038166c3ee, type: 3}
+  - materialType: 10
+    VFXStepID: SnowBurst
+    soundClips:
+    - {fileID: 8300000, guid: 05c42e498b8744744ad3fbf2055f3624, type: 3}
+    - {fileID: 8300000, guid: d82fc2cd4d9eb384ba34b3dc326990d9, type: 3}
+    - {fileID: 8300000, guid: 2c90e80473cc930448770f8a996062cb, type: 3}
+    - {fileID: 8300000, guid: 2efc5e4bb7b00ae4cbf739f7a1a4c3ff, type: 3}
+    - {fileID: 8300000, guid: 50dae6ac2eee7894fb8b48c192a50802, type: 3}
+    - {fileID: 8300000, guid: f80636348148ff84095ac896bff66d1c, type: 3}
+    - {fileID: 8300000, guid: c8a70ba7587aebd46a56ebb8006262f1, type: 3}
+    - {fileID: 8300000, guid: 8434b482ddca5934d813b9de555ff4ab, type: 3}
+    - {fileID: 8300000, guid: 0c1712eebdb3af2438eb4cd93140acc0, type: 3}
+    - {fileID: 8300000, guid: bf5c0a922b0cd2347a738c1d0f1a782a, type: 3}
+    - {fileID: 8300000, guid: 7f3ebf527276b484e8edae7846d33119, type: 3}
+    - {fileID: 8300000, guid: 3e069d60195c9de4a9f7765557397f30, type: 3}
+    - {fileID: 8300000, guid: 3c1967f6644f7ee4cb90dd9da24dd7da, type: 3}
+    - {fileID: 8300000, guid: bc42a9fc9dbd95442849a1d0a23dd41e, type: 3}
+    - {fileID: 8300000, guid: 4484cb0b05ef2ae4c9fffdbbbd82c5cd, type: 3}
+    - {fileID: 8300000, guid: 120931fb726356346926852e66a98948, type: 3}
+    - {fileID: 8300000, guid: 4f06448e52184d849bf63240240ddada, type: 3}
+    - {fileID: 8300000, guid: 3274935aa2ffdd543aea4fec89c08188, type: 3}
+    - {fileID: 8300000, guid: ee5109b2ca7428843a14b6a36dda384f, type: 3}
+    - {fileID: 8300000, guid: 27a83612c761cb54c9eaa211ed9a74f0, type: 3}
+    - {fileID: 8300000, guid: 4247388d57a4ce84096a96838717c4c8, type: 3}
+    - {fileID: 8300000, guid: 9929892c95e88f24ea67533fdec16e2e, type: 3}
+    - {fileID: 8300000, guid: 3f06dcd119362ab4e92a4141798a689e, type: 3}
+    - {fileID: 8300000, guid: bd926afca0aa8ab48b8abfc15454bc3d, type: 3}
