@@ -1,0 +1,90 @@
+{
+  "_meta": {
+    "language": "vi",
+    "version": "1.0",
+    "displayName": "Tiếng Việt",
+    "fallback": "en"
+  },
+  "ui": {
+    "menu": {
+      "title": "MYTHFALL: NGƯỜI SỐNG SÓT",
+      "play": "Chơi",
+      "settings": "Cài đặt",
+      "characters": "Anh hùng",
+      "gacha": "Triệu hồi",
+      "inventory": "Túi đồ",
+      "shop": "Cửa hàng",
+      "battle_pass": "Thẻ chiến",
+      "coming_soon": "Sắp ra mắt"
+    },
+    "common": {
+      "ok": "Đồng ý",
+      "cancel": "Hủy",
+      "back": "Quay lại",
+      "loading": "Đang tải..."
+    },
+    "character_select": {
+      "title": "Chọn Anh Hùng",
+      "enter_stage": "Vào trận",
+      "back": "Quay lại",
+      "locked": "Đã khóa",
+      "stars": "{0}★"
+    },
+    "hud": {
+      "level": "Cấp {0}",
+      "xp_progress": "{0}/{1}",
+      "skill_cooldown": "{0}s",
+      "wave": "Đợt {0}"
+    },
+    "game_over": {
+      "title_defeat": "Bạn đã ngã xuống",
+      "title_victory": "Chiến thắng!",
+      "subtitle_defeat": "Hư Vô đã thắng...",
+      "stats_time": "Thời gian sống: {0}",
+      "stats_kills": "Số tiêu diệt: {0}",
+      "stats_wave": "Đợt cao nhất: {0}",
+      "stats_level": "Cấp đạt: {0}",
+      "btn_retry": "Thử lại",
+      "btn_hub": "Về Đại sảnh"
+    },
+    "settings": {
+      "title": "Cài đặt",
+      "music_volume": "Âm lượng nhạc",
+      "sfx_volume": "Âm lượng hiệu ứng",
+      "language": "Ngôn ngữ",
+      "language_vi": "Tiếng Việt",
+      "language_en": "English",
+      "close": "Đóng"
+    }
+  },
+  "character": {
+    "kai": {
+      "name": "Kai Lôi Phong",
+      "title": "Cô Lang",
+      "lore": "Hậu duệ trực hệ Lôi Hoàng. Khi Hư Vô đến, cả tộc bị tiêu diệt 3 ngày. Kai sống sót vì lúc đó đi săn xa."
+    },
+    "lyra": {
+      "name": "Lyra Vọng Nguyệt",
+      "title": "Kẻ Phản Đồ",
+      "lore": "Phát hiện trưởng lão tộc thông đồng với Hư Vô. Tố cáo, bị xử tử hình, trốn thoát. Mang gánh nặng vì phát hiện quá muộn."
+    }
+  },
+  "enemy": {
+    "swarmer": {
+      "name": "Hư Linh Quỷ",
+      "desc": "Quái nhỏ tấn công thành đàn"
+    },
+    "brute": {
+      "name": "Mộc Đoạt Tử",
+      "desc": "Tên khổng lồ chậm chạp, đập một phát mạnh kinh hoàng"
+    },
+    "shooter": {
+      "name": "Cung Ảo Quỷ",
+      "desc": "Bắn tên từ xa, lùi khi bị áp sát"
+    },
+    "rotwood": {
+      "name": "Rotwood — Cội Thối",
+      "desc": "Boss Chương 1 — gốc thối rữa của Thanh Lâm Vực"
+    }
+  }
+}

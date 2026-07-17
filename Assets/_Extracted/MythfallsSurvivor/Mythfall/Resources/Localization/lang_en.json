@@ -1,0 +1,90 @@
+{
+  "_meta": {
+    "language": "en",
+    "version": "1.0",
+    "displayName": "English",
+    "fallback": null
+  },
+  "ui": {
+    "menu": {
+      "title": "MYTHFALL: SURVIVORS",
+      "play": "Play",
+      "settings": "Settings",
+      "characters": "Heroes",
+      "gacha": "Summon",
+      "inventory": "Inventory",
+      "shop": "Shop",
+      "battle_pass": "Battle Pass",
+      "coming_soon": "Coming Soon"
+    },
+    "common": {
+      "ok": "OK",
+      "cancel": "Cancel",
+      "back": "Back",
+      "loading": "Loading..."
+    },
+    "character_select": {
+      "title": "Choose Hero",
+      "enter_stage": "Enter Stage",
+      "back": "Back",
+      "locked": "Locked",
+      "stars": "{0}★"
+    },
+    "hud": {
+      "level": "Lv {0}",
+      "xp_progress": "{0}/{1}",
+      "skill_cooldown": "{0}s",
+      "wave": "Wave {0}"
+    },
+    "game_over": {
+      "title_defeat": "You Fell",
+      "title_victory": "Victory!",
+      "subtitle_defeat": "The Hollow has won...",
+      "stats_time": "Survival time: {0}",
+      "stats_kills": "Kills: {0}",
+      "stats_wave": "Highest wave: {0}",
+      "stats_level": "Reached level: {0}",
+      "btn_retry": "Retry",
+      "btn_hub": "Back to Hub"
+    },
+    "settings": {
+      "title": "Settings",
+      "music_volume": "Music volume",
+      "sfx_volume": "SFX volume",
+      "language": "Language",
+      "language_vi": "Tiếng Việt",
+      "language_en": "English",
+      "close": "Close"
+    }
+  },
+  "character": {
+    "kai": {
+      "name": "Kai Stormbringer",
+      "title": "The Lone Wolf",
+      "lore": "Direct descendant of the Thunder Sovereign. When the Hollow came, his entire tribe was wiped out in 3 days. Kai survived only because he was hunting far away."
+    },
+    "lyra": {
+      "name": "Lyra Moonweaver",
+      "title": "The Renegade",
+      "lore": "Discovered her tribe's elders conspiring with the Hollow. Reported them, was sentenced to death, escaped. Carries the weight of discovering it too late."
+    }
+  },
+  "enemy": {
+    "swarmer": {
+      "name": "Hollow Imp",
+      "desc": "Small swarming pest"
+    },
+    "brute": {
+      "name": "Wood-Render",
+      "desc": "Slow giant — one devastating slam"
+    },
+    "shooter": {
+      "name": "Spectral Archer",
+      "desc": "Ranged kiter — backpedals when pressed"
+    },
+    "rotwood": {
+      "name": "Rotwood — Rotten Heartwood",
+      "desc": "Chapter 1 boss — decayed root of the Sundered Grove"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd7490e72aa0fe744b258a816bdf0dae, type: 3}
+  m_Name: Swarmer_Data
+  m_EditorClassIdentifier: Assembly-CSharp::Mythfall.Enemy.EnemyDataSO
+  enemyId: swarmer
+  nameKey: enemy.swarmer.name
+  descKey: enemy.swarmer.desc
+  maxHP: 30
+  attackPower: 5
+  moveSpeed: 4
+  attackRange: 0.8
+  attackCooldown: 1.2
+  xpReward: 1
+  prefab: {fileID: 3620794964968280863, guid: 11d1b32dd5b3c7649b4aa9232a4aa3e1, type: 3}
+  poolKey: Enemy_Swarmer
