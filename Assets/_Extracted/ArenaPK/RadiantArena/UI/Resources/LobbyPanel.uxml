@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+  <ui:VisualElement name="root" class="lobby-root">
+
+    <ui:VisualElement name="header" class="lobby-header">
+      <ui:Label name="title" text="LOBBY" class="lobby-title" />
+      <ui:Label name="session-id" text="" class="lobby-session" />
+    </ui:VisualElement>
+
+    <ui:VisualElement name="player-slots" class="lobby-slots">
+      <ui:VisualElement name="me-slot" class="lobby-slot me">
+        <ui:Label name="me-name" text="Me" class="slot-name" />
+        <ui:Label name="me-ready" text="Not ready" class="slot-ready" />
+      </ui:VisualElement>
+      <ui:VisualElement name="opponent-slot" class="lobby-slot opponent">
+        <ui:Label name="opponent-name" text="Waiting for opponent…" class="slot-name" />
+        <ui:Label name="opponent-ready" text="--" class="slot-ready" />
+      </ui:VisualElement>
+    </ui:VisualElement>
+
+    <ui:VisualElement name="weapons-section" class="lobby-weapons">
+      <ui:Label text="Chọn vũ khí" class="weapons-label" />
+      <ui:ListView name="weapon-list" class="weapon-list" />
+    </ui:VisualElement>
+
+    <ui:VisualElement name="actions" class="lobby-actions">
+      <ui:Button name="unready-btn" text="Huỷ" class="btn btn-secondary" />
+      <ui:Button name="ready-btn" text="Sẵn sàng" class="btn btn-primary" />
+    </ui:VisualElement>
+
+  </ui:VisualElement>
+</ui:UXML>

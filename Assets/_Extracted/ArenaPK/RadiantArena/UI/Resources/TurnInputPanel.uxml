@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+  <ui:VisualElement name="root" class="turn-root">
+
+    <ui:VisualElement name="header" class="turn-header">
+      <ui:Label name="title" text="LƯỢT CỦA TÔI" class="turn-title" />
+    </ui:VisualElement>
+
+    <ui:VisualElement name="power-gauge" class="power-gauge">
+      <ui:VisualElement name="power-track" class="power-track">
+        <ui:VisualElement name="power-fill" class="power-fill" />
+      </ui:VisualElement>
+      <ui:Label name="power-value" text="0%" class="power-value" />
+    </ui:VisualElement>
+
+    <ui:VisualElement name="hint-bar" class="hint-bar">
+      <ui:Label name="hint" text="Kéo để nhắm, thả để bắn" class="hint-label" />
+    </ui:VisualElement>
+
+  </ui:VisualElement>
+</ui:UXML>

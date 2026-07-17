@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+  <ui:VisualElement name="root" class="hud-root">
+
+    <ui:VisualElement name="hud-header" class="hud-header">
+      <ui:Label name="hud-round" text="Hiệp 1" class="hud-round" />
+      <ui:Label name="hud-timer" text="—" class="hud-timer" />
+      <ui:Label name="hud-turn"  text=""    class="hud-turn-indicator" />
+    </ui:VisualElement>
+
+    <ui:VisualElement name="hud-slots" class="hud-slots">
+
+      <ui:VisualElement name="me-slot" class="hud-slot me">
+        <ui:VisualElement name="me-info" class="hud-info">
+          <ui:Label name="me-name"   text="Me"   class="hud-name" />
+          <ui:Label name="me-weapon" text="—"    class="hud-weapon" />
+        </ui:VisualElement>
+        <ui:VisualElement name="me-bar-track" class="hud-bar-track">
+          <ui:VisualElement name="me-bar-fill" class="hud-bar-fill" />
+        </ui:VisualElement>
+        <ui:Label name="me-hp" text="100 / 100" class="hud-hp" />
+      </ui:VisualElement>
+
+      <ui:VisualElement name="opp-slot" class="hud-slot opp">
+        <ui:VisualElement name="opp-info" class="hud-info">
+          <ui:Label name="opp-name"   text="—"  class="hud-name" />
+          <ui:Label name="opp-weapon" text="—"  class="hud-weapon" />
+        </ui:VisualElement>
+        <ui:VisualElement name="opp-bar-track" class="hud-bar-track">
+          <ui:VisualElement name="opp-bar-fill" class="hud-bar-fill" />
+        </ui:VisualElement>
+        <ui:Label name="opp-hp" text="100 / 100" class="hud-hp" />
+      </ui:VisualElement>
+
+    </ui:VisualElement>
+
+  </ui:VisualElement>
+</ui:UXML>

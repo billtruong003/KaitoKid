@@ -1,0 +1,17 @@
+@import url("unity-theme://default");
+
+VisualElement {
+}
+
+Label {
+    color: rgb(220, 228, 240);
+    -unity-font-style: normal;
+}
+
+Button {
+    -unity-font-style: bold;
+}
+
+ListView {
+    --unity-list-view-item-height: 36;
+}

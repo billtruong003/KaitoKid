@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+  <ui:VisualElement name="root" class="result-root">
+
+    <ui:VisualElement name="result-card" class="result-card">
+
+      <ui:Label name="result-banner" text="Trận đấu kết thúc" class="result-banner" />
+      <ui:Label name="result-outcome" text="" class="result-outcome" />
+
+      <ui:VisualElement name="result-hp" class="result-hp-section">
+        <ui:Label name="result-hp-me"  text="—" class="result-hp-row" />
+        <ui:Label name="result-hp-opp" text="—" class="result-hp-row" />
+      </ui:VisualElement>
+
+      <ui:VisualElement name="result-actions" class="result-actions">
+        <ui:Button name="result-replay-btn" text="Chơi lại" class="btn btn-secondary" />
+        <ui:Button name="result-lobby-btn"  text="Về sảnh"  class="btn btn-primary" />
+      </ui:VisualElement>
+
+    </ui:VisualElement>
+  </ui:VisualElement>
+</ui:UXML>

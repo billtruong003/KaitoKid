@@ -1,0 +1,112 @@
+.hud-root {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+}
+
+.hud-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.hud-round {
+    font-size: 14px;
+    color: rgba(180, 200, 230, 0.7);
+}
+
+.hud-timer {
+    font-size: 28px;
+    -unity-font-style: bold;
+    color: rgb(232, 240, 255);
+    -unity-text-align: middle-center;
+    letter-spacing: 2;
+}
+
+.hud-timer.timer-urgent {
+    color: rgb(240, 90, 90);
+}
+
+.hud-turn-indicator {
+    font-size: 12px;
+    color: rgba(180, 200, 230, 0.7);
+    -unity-text-align: middle-right;
+}
+
+.hud-slots {
+    flex-direction: row;
+}
+
+.hud-slot {
+    flex-grow: 1;
+    flex-direction: column;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 6px;
+    margin-right: 6px;
+    background-color: rgba(16, 22, 32, 0.78);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.hud-slot.me {
+    border-left-width: 3px;
+    border-left-color: rgb(74, 220, 140);
+}
+
+.hud-slot.opp {
+    border-right-width: 3px;
+    border-right-color: rgb(240, 160, 80);
+}
+
+.hud-info {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.hud-name {
+    font-size: 14px;
+    -unity-font-style: bold;
+    color: rgb(220, 230, 245);
+}
+
+.hud-weapon {
+    font-size: 12px;
+    color: rgba(180, 200, 230, 0.7);
+}
+
+.hud-bar-track {
+    height: 14px;
+    background-color: rgba(40, 48, 60, 0.95);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.hud-bar-fill {
+    height: 14px;
+    width: 100%;
+    background-color: rgb(74, 220, 140);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.hud-hp {
+    font-size: 12px;
+    color: rgba(180, 200, 230, 0.85);
+    -unity-text-align: middle-right;
+}

@@ -1,0 +1,67 @@
+.result-root {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.68);
+}
+
+.result-card {
+    width: 420px;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    background-color: rgba(20, 26, 38, 0.96);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.result-banner {
+    font-size: 36px;
+    -unity-font-style: bold;
+    letter-spacing: 2;
+    color: rgb(232, 240, 255);
+    margin-bottom: 8px;
+}
+
+.result-banner.win {
+    color: rgb(120, 230, 160);
+}
+
+.result-banner.lose {
+    color: rgb(240, 110, 110);
+}
+
+.result-banner.draw {
+    color: rgb(220, 220, 200);
+}
+
+.result-outcome {
+    font-size: 14px;
+    color: rgba(180, 200, 230, 0.7);
+    margin-bottom: 20px;
+}
+
+.result-hp-section {
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.result-hp-row {
+    font-size: 14px;
+    color: rgb(200, 210, 225);
+    -unity-text-align: middle-center;
+    margin-bottom: 4px;
+}
+
+.result-actions {
+    flex-direction: row;
+}

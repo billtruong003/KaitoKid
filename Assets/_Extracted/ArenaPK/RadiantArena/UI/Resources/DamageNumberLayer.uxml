@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+  <ui:VisualElement name="root" class="damage-layer-root">
+    <!-- Damage Labels added at runtime by DamageNumberLayer.Spawn(...). -->
+  </ui:VisualElement>
+</ui:UXML>

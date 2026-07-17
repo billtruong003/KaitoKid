@@ -1,0 +1,20 @@
+.damage-layer-root {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.damage-number {
+    position: absolute;
+    font-size: 22px;
+    -unity-font-style: bold;
+    color: rgb(240, 230, 230);
+}
+
+.damage-number.crit {
+    font-size: 36px;
+    color: rgb(255, 215, 80);
+    -unity-font-style: bold;
+}
