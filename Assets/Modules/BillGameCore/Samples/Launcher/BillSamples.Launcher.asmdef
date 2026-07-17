@@ -1,0 +1,19 @@
+{
+    "name": "BillSamples.Launcher",
+    "rootNamespace": "BillSamples.Launcher",
+    "references": [
+        "BillGameCore",
+        "BillSamples.Flappy",
+        "BillSamples.Runner",
+        "BillSamples.TowerDefense"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
