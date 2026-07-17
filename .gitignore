@@ -1,0 +1,37 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+sysinfo.txt
+crashlytics-build.txt
+*.apk
+*.aab
+*.unitypackage
+*.app
+_dedup_log.csv
+
+# Raw bulk-copied staging area - contains third-party paid Asset Store
+# packages (Synty, TopDownEngine, Malbers, MagicaCloth2, Odin Inspector,
+# MeshBaker, DOTween, AutoHand, Layer Lab, etc.) pulled in for research.
+# Never commit this wholesale - only the hand-picked, self-written code
+# under Assets/Modules/ is meant to be pushed.
+/Assets/_Extracted/
