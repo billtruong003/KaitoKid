@@ -1,0 +1,16 @@
+{
+    "name": "BillSamples.TowerDefense",
+    "rootNamespace": "BillSamples.TowerDefense",
+    "references": [
+        "BillGameCore"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
