@@ -1,0 +1,29 @@
+{
+    "name": "Teabag.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Teabag.Core",
+        "Teabag.Networking",
+        "Fusion.Unity",
+        "LinqGen",
+        "Unity.Collections",
+        "Unity.TextMeshPro",
+        "Teabag.Player",
+        "Squido.JungleXRKit.Core",
+        "Squido.JungleXRKit.Core.Editor",
+        "UniTask",
+        "Squido.JungleXRKit.Avatar",
+        "VContainer"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

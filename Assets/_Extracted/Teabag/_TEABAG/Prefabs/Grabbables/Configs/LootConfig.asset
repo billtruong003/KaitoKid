@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d69b7da7f769a0e48b522c97ca5ce9c4, type: 3}
+  m_Name: LootConfig
+  m_EditorClassIdentifier: Teabag.Gameplay::LootManagerDataObject
+  _itemDatas:
+  - _id: w-revolver
+    _itemPrefabs:
+      _ammo: {fileID: 1113005346653832, guid: d2030e1dd6e306449a4df92ccbf93938, type: 3}
+      _common:
+      - {fileID: 1215176133026714, guid: e02e31973cf08b044bfd551e2d0cb9b7, type: 3}
+      _uncommon:
+      - {fileID: 1215176133026714, guid: 47cd9455cf453a642bb725bd1af6fd82, type: 3}
+      _rare:
+      - {fileID: 1215176133026714, guid: fbcb017ddd28342498e6928917d1c401, type: 3}
+      _epic:
+      - {fileID: 1215176133026714, guid: a742510a8415ccb4cb94a52b5767bd5f, type: 3}
+      _legendary:
+      - {fileID: 1215176133026714, guid: 8fa5c800470513f4f8a760705e53c72b, type: 3}
+  - _id: w-shotgun
+    _itemPrefabs:
+      _ammo: {fileID: 1274483442161292, guid: 9a343161ba13ade44bfd75098cc0605e, type: 3}
+      _common:
+      - {fileID: 2767077035070175293, guid: a9327a8db958d8445a52a080feaa1809, type: 3}
+      _uncommon:
+      - {fileID: 2767077035070175293, guid: 5943e79820b192a4b994ed1998c99267, type: 3}
+      _rare:
+      - {fileID: 2767077035070175293, guid: 1c5ce0de0e679564598011868dc3a08d, type: 3}
+      _epic:
+      - {fileID: 2767077035070175293, guid: 599a99d6fb1e9e9469f7dd5078572341, type: 3}
+      _legendary:
+      - {fileID: 2767077035070175293, guid: 4c084eff5179092458edf3ff5a8f2da6, type: 3}
+  - _id: w-assault-rifle
+    _itemPrefabs:
+      _ammo: {fileID: 1495748077833478, guid: d7ceda7b4977dfd49b6b551566265733, type: 3}
+      _common:
+      - {fileID: 1042019584973368, guid: 17a172570ca0407409f39132f6bbc164, type: 3}
+      _uncommon:
+      - {fileID: 1042019584973368, guid: 8813538f49e625e43b4ecc89b64090e3, type: 3}
+      _rare:
+      - {fileID: 1042019584973368, guid: 4e9e0f57d8535194ca922def2253f3d0, type: 3}
+      _epic:
+      - {fileID: 1042019584973368, guid: 64311d7407406934aba0a4bcf54a80f9, type: 3}
+      _legendary:
+      - {fileID: 1042019584973368, guid: 57025d6c01cd6f74abeabf6e03d8a924, type: 3}
+  - _id: w-sniper
+    _itemPrefabs:
+      _ammo: {fileID: 1364968598790260, guid: 18ec3f4f140dca44cad65132c8fcc35e, type: 3}
+      _common:
+      - {fileID: 1224305756819350, guid: e27389a5afba5c34c88bf2b122ad7320, type: 3}
+      _uncommon:
+      - {fileID: 1224305756819350, guid: c299d05559bd1154d8a2062c995a01b3, type: 3}
+      _rare:
+      - {fileID: 1224305756819350, guid: d49987e0f2d67e2499e74442640aa222, type: 3}
+      _epic:
+      - {fileID: 1224305756819350, guid: 6daf6cefc6a44d946b3631d32e6defcd, type: 3}
+      _legendary:
+      - {fileID: 1224305756819350, guid: 44dec18daa9dd4848b0cb467a43c1462, type: 3}
+  - _id: w-machine-gun
+    _itemPrefabs:
+      _ammo: {fileID: 1495748077833478, guid: d7ceda7b4977dfd49b6b551566265733, type: 3}
+      _common:
+      - {fileID: 1042019584973368, guid: 8ae5c99cd09579f469afa5f8a881e4e9, type: 3}
+      _uncommon:
+      - {fileID: 1042019584973368, guid: d89960ca1af82de48a8b5e8ed2eaf98e, type: 3}
+      _rare:
+      - {fileID: 1042019584973368, guid: 169eebb0a2b4b914b8c3ce7bfab139ed, type: 3}
+      _epic:
+      - {fileID: 1042019584973368, guid: 32f3d95986c0ef544bd80e4eebc78e3d, type: 3}
+      _legendary:
+      - {fileID: 1042019584973368, guid: 2942a28f779e8f649bbfc93bd0be7872, type: 3}
+  - _id: w-bat
+    _itemPrefabs:
+      _ammo: {fileID: 0}
+      _common:
+      - {fileID: 1079387494257586, guid: f23493440b30016488398c2db9f0760f, type: 3}
+      _uncommon:
+      - {fileID: 1079387494257586, guid: b3c2baee459a2174baf8c58874096290, type: 3}
+      _rare:
+      - {fileID: 1079387494257586, guid: 0218206413d03a74fb3f19fdc7fa95e9, type: 3}
+      _epic:
+      - {fileID: 1079387494257586, guid: 9b094da45d30af44a9afeab0d7b28804, type: 3}
+      _legendary:
+      - {fileID: 1079387494257586, guid: 01bb00434a75f924fab32171da10c75c, type: 3}
+  - _id: w-pan
+    _itemPrefabs:
+      _ammo: {fileID: 0}
+      _common:
+      - {fileID: 1332914809032618, guid: 16de15f9b1ec4124cbee44e23b402157, type: 3}
+      _uncommon:
+      - {fileID: 1332914809032618, guid: e2f15f4f3e2cb384ab01716198cbf75e, type: 3}
+      _rare:
+      - {fileID: 1332914809032618, guid: f6d76f476c1c7ad4dbf83958f5e6759b, type: 3}
+      _epic:
+      - {fileID: 1332914809032618, guid: e8b6a40ac8b65b048963f801942ffdd2, type: 3}
+      _legendary:
+      - {fileID: 1332914809032618, guid: 78d71fde828271b43bddb57514d69838, type: 3}
+  _objectDatas:
+  - _id: o-bandage
+    _objectPrefab: {fileID: 1918537956083988, guid: 6e9029210df1a9541b7e9e42b790ab8b, type: 3}
+  - _id: o-grenade
+    _objectPrefab: {fileID: 1000582683020524, guid: 1ddc1d0c706325d4ab53c03f00f0520d, type: 3}
+  - _id: o-smoke-grenade
+    _objectPrefab: {fileID: 1263194922129702, guid: 9542e0a3f73ed4c4caa252dddf2fcdc4, type: 3}
+  - _id: o-shield
+    _objectPrefab: {fileID: 4945589350290490900, guid: 9ce11e6fb2bebcc4d8ddfd9e5a696089, type: 3}

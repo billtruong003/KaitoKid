@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd0fa090c381248199cbf3ee92834855, type: 3}
+  m_Name: ThrowableData
+  m_EditorClassIdentifier: Assembly-CSharp::GrenadeData
+  doDamage: 1
+  explosionPrefab: {fileID: 8354200510526932321, guid: 2cfc494421f83ca439707bb824515ce8, type: 3}
+  armClip:
+    clip: {fileID: 8300000, guid: 48bf2ac26e7670944a3a814b2e9ece64, type: 3}
+    volume: 0.6
+    spacial: 1
+    rollOff: 1
+  throwClip:
+    clip: {fileID: 8300000, guid: a6080ec9991829a4394de7d5df448e2e, type: 3}
+    volume: 0.6
+    spacial: 1
+    rollOff: 1

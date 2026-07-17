@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb7ca899041ff4f4fad1ee3511dbfda2, type: 3}
+  m_Name: PoolSettingsAsset
+  m_EditorClassIdentifier: Teabag.Core::Teabag.Core.PoolSettingsAsset
+  _settings:
+    _warmupEntries:
+    - prefab: {fileID: 2643712714202680824, guid: 471ed61ad317f6b449aa6664e8399eea, type: 3}
+      count: 50
+      maxSize: 500
+    - prefab: {fileID: 2643712714202680824, guid: 090157fe6d19fd4429c790a017cf4233, type: 3}
+      count: 30
+      maxSize: 500
+    - prefab: {fileID: 1000582683020524, guid: 1ddc1d0c706325d4ab53c03f00f0520d, type: 3}
+      count: 10
+      maxSize: 100
+    - prefab: {fileID: 4001800136745699663, guid: e96b115b0bb5dcb48bb8f169ccda1822, type: 3}
+      count: 30
+      maxSize: 500
+    - prefab: {fileID: 2057033819350799793, guid: c93cabf642a104b4f80352f1b8961b99, type: 3}
+      count: 20
+      maxSize: 200
+    - prefab: {fileID: 8354200510526932321, guid: 2cfc494421f83ca439707bb824515ce8, type: 3}
+      count: 20
+      maxSize: 200
+    - prefab: {fileID: 8354200510526932321, guid: 5e06e84a57a63dc49b63e09342b94d23, type: 3}
+      count: 20
+      maxSize: 200
+    - prefab: {fileID: 95135288778869440, guid: d9e64fd9f93ea434280e54b03fa44f63, type: 3}
+      count: 20
+      maxSize: 200
+    - prefab: {fileID: 8979707796272392949, guid: 9665d11c36bf9a247b31ae6e4754f1e3, type: 3}
+      count: 20
+      maxSize: 500

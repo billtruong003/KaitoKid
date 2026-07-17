@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b9c1892bd4db45cfb9568900586589b, type: 3}
+  m_Name: PanData
+  m_EditorClassIdentifier: Assembly-CSharp::MeleeData
+  spherecastRadius: 0
+  checkBoxExtents: {x: 0.5, y: 0.5, z: 0.15}
+  checkBoxCenterOffset: {x: 0, y: 0.42, z: -0.035}
+  damage: 1e23282d32
+  cooldownMs: e8030000ee020000f40100002c010000c8000000
+  hitVelocityMultiplier:
+  - 1
+  - 1.25
+  - 1.5
+  - 1.75
+  - 2
+  hitClip:
+    _clip: {fileID: 8300000, guid: c52a306e17c5af749a9402e47ce4daa6, type: 3}
+    _volume: 4
+    _spatialBlend: 0
+    _rollOff: 1
+    _group: 2
+    _priority: 2
+  failedHitClip:
+    _clip: {fileID: 8300000, guid: b93373978c1d3d540ab7348718dc5ff2, type: 3}
+    _volume: 1
+    _spatialBlend: 0
+    _rollOff: 1
+    _group: 2
+    _priority: 2
+  onhitParticle: {fileID: 840801482638420399, guid: 80a5afd10b718d1499286217044e526d, type: 3}

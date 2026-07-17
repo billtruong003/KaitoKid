@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77e453f07a1f82641b0d9c98b169d428, type: 3}
+  m_Name: PerkSettingsAsset
+  m_EditorClassIdentifier: Teabag.Core::Teabag.Core.PerkSettingsAsset
+  _settings:
+    _perkDataBase:
+    - {fileID: 11400000, guid: 4f896071516c530449e5ba63fe1de483, type: 2}
+    - {fileID: 11400000, guid: 7dacfdfcfc3f3b14db14d195eef1ce4a, type: 2}
+    - {fileID: 11400000, guid: e2b7b92339bd122428f8b762908e7ea0, type: 2}
+    - {fileID: 11400000, guid: ef4b867fb9fd1c541bd52653bf31eced, type: 2}
+    - {fileID: 11400000, guid: 836bc7f3c8ab57c44a0eeca74a42335e, type: 2}
+    - {fileID: 11400000, guid: 910bfb132126ff147ab26dc92e695271, type: 2}
+    - {fileID: 11400000, guid: b8400ac1b0e548d468b5b100132f83cc, type: 2}
+    - {fileID: 11400000, guid: 40983a912f73f0c4382ed81e72897808, type: 2}
+    - {fileID: 11400000, guid: e3a749ec38bef204e834b529b97da127, type: 2}
+    - {fileID: 11400000, guid: 04cbfd0ff16086843b051010fc9ae5ae, type: 2}
+    - {fileID: 11400000, guid: 27e9f7a17e29fac45ab29236bdea3985, type: 2}
+    - {fileID: 11400000, guid: 432c0481029055545b57474e80c049d0, type: 2}
+    - {fileID: 11400000, guid: 404e87cfba2589c4591f06587992e937, type: 2}
+    - {fileID: 11400000, guid: c2a99befc5f5f3142b9cd01a0d9278fa, type: 2}
+    - {fileID: 11400000, guid: 30b1ae2382ab36345b8dac6f3f222e76, type: 2}
+    - {fileID: 11400000, guid: e427a9694ce91a647bb7451284ffb834, type: 2}
+    - {fileID: 11400000, guid: ad02f17b9c51253429afd6ba8ad773bd, type: 2}
+    - {fileID: 11400000, guid: 2c1dc185f4dae4b4182765d1c1afcce8, type: 2}
+    - {fileID: 11400000, guid: 67a7df77a4d2a15439a285498372ad61, type: 2}
+    - {fileID: 11400000, guid: 03f2f683004e9cf49bdafd612332297a, type: 2}

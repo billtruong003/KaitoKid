@@ -1,0 +1,27 @@
+{
+    "name": "Teabag.Gameplay",
+    "rootNamespace": "",
+    "references": [
+        "Teabag.Core",
+        "Teabag.Player",
+        "Teabag.Networking",
+        "Fusion.Unity",
+        "Squido.JungleXRKit.Core",
+        "UniTask",
+        "Squido.JungleXRKit.Avatar",
+        "Unity.TextMeshPro",
+        "PlayFab",
+        "VContainer",
+        "Unity.Splines",
+        "Unity.Mathematics"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

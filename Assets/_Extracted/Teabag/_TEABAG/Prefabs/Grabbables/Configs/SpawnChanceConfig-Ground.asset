@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b76e1e6fc4b1459e2bc50249c27c1, type: 3}
+  m_Name: SpawnChanceConfig-Ground
+  m_EditorClassIdentifier: Teabag.Gameplay::SpawnChanceDataObject
+  _itemTypeChances:
+  - <ID>k__BackingField: w-machine-gun
+    <Chance>k__BackingField: 20
+  - <ID>k__BackingField: w-revolver
+    <Chance>k__BackingField: 15
+  - <ID>k__BackingField: w-shotgun
+    <Chance>k__BackingField: 20
+  - <ID>k__BackingField: w-assault-rifle
+    <Chance>k__BackingField: 20
+  - <ID>k__BackingField: w-sniper
+    <Chance>k__BackingField: 10
+  - <ID>k__BackingField: w-bat
+    <Chance>k__BackingField: 10
+  - <ID>k__BackingField: w-pan
+    <Chance>k__BackingField: 5
+  _rarityChances:
+  - <Rarity>k__BackingField: 0
+    <Chance>k__BackingField: 30
+  - <Rarity>k__BackingField: 1
+    <Chance>k__BackingField: 40
+  - <Rarity>k__BackingField: 2
+    <Chance>k__BackingField: 20
+  - <Rarity>k__BackingField: 3
+    <Chance>k__BackingField: 8
+  - <Rarity>k__BackingField: 4
+    <Chance>k__BackingField: 2
+  _objectTypeChances:
+  - <ID>k__BackingField: o-bandage
+    <Chance>k__BackingField: 25
+  - <ID>k__BackingField: o-grenade
+    <Chance>k__BackingField: 25
+  - <ID>k__BackingField: o-smoke-grenade
+    <Chance>k__BackingField: 25
+  - <ID>k__BackingField: o-shield
+    <Chance>k__BackingField: 25

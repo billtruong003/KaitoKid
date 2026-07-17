@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2df146ba8219ab0498a5d2b879dc457b, type: 3}
+  m_Name: AllGameMode
+  m_EditorClassIdentifier: Assembly-CSharp::GorillaRoyale.GameMode.GameModeDb
+  gameModes:
+  - {fileID: 11400000, guid: ced6a9bfa0016b24c813173d5614a9a3, type: 2}
+  - {fileID: 11400000, guid: db681be0154a51642a2e762daabce404, type: 2}
+  - {fileID: 11400000, guid: ec2a205539ef0664e96a489e1c3baa84, type: 2}
+  - {fileID: 11400000, guid: f4a7b2c3d8e5f1a09b6c7d2e3f4a5b80, type: 2}
+  - {fileID: 11400000, guid: c68bc8c89bee2e0429ddc9c09f542e6e, type: 2}
+  - {fileID: 11400000, guid: cb174784fc38202439a64cf7dd42ad83, type: 2}
+  - {fileID: 11400000, guid: a806186db21323c44b2fe8a64d1dc658, type: 2}
+  - {fileID: 11400000, guid: 6fbfb68d231c4f947a9be4b41679179e, type: 2}

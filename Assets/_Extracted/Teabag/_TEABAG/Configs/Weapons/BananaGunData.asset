@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f97f2744d34546479d0224724ddeebf, type: 3}
+  m_Name: BananaGunData
+  m_EditorClassIdentifier: Assembly-CSharp::FirearmData
+  auto: 0
+  msBetweenShots: 1500
+  msReloadTime: 3000
+  recoil: 2
+  bulletsInShot: 1
+  bulletSpread: 5
+  speed: 4
+  damageOverTime: 0
+  bulletTypeName: PistolAmmo
+  bulletPrefab: {fileID: 8074883670703247556, guid: 090157fe6d19fd4429c790a017cf4233, type: 3}
+  damage: 0f191b2023
+  magCapacity: 3
+  fireClip:
+    clip: {fileID: 8300000, guid: 5c2ce3a1aa25adb40a46073a3f281e6e, type: 3}
+    volume: 1
+    spacial: 1
+    rollOff: 1
+  jammedClip:
+    clip: {fileID: 8300000, guid: a9746a63c3fa59c498d197a65b33ca7e, type: 3}
+    volume: 1
+    spacial: 1
+    rollOff: 1
+  reloadClip:
+    clip: {fileID: 8300000, guid: 7d0ef2a9a5ce3f346b91cc48f39ff11c, type: 3}
+    volume: 1
+    spacial: 1
+    rollOff: 1

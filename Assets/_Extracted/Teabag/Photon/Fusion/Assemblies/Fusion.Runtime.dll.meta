@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: f6d99bd8c3354ce468cbf96c81062af3
+PluginImporter:
+  externalObjects: {}
+  serializedVersion: 3
+  iconMap: {}
+  executionOrder:
+    Fusion.HitboxRoot: -2000
+    Fusion.NetworkMecanimAnimator: 600
+    Fusion.NetworkObject: 5000
+    Fusion.NetworkObjectInactivityGuard: -10000
+    Fusion.NetworkTransform: -1400
+  defineConstraints: []
+  isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
+  platformData:
+    Any:
+      enabled: 1
+      settings: {}
+    Editor:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+    WindowsStoreApps:
+      enabled: 0
+      settings:
+        CPU: AnyCPU
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

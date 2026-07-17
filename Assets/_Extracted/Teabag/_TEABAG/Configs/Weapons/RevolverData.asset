@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f97f2744d34546479d0224724ddeebf, type: 3}
+  m_Name: RevolverData
+  m_EditorClassIdentifier: Assembly-CSharp::FirearmData
+  auto: 0
+  msBetweenShots: 91
+  msReloadTime: 2000
+  recoil: 1
+  bulletsInShot: 1
+  bulletSpread: 5
+  speed: 2
+  range: 200
+  damageOverTime: 0
+  bulletTypeName: PistolAmmo
+  bulletPrefab: {fileID: 8074883670703247556, guid: 471ed61ad317f6b449aa6664e8399eea, type: 3}
+  damage: 1011121314
+  magCapacity: 24
+  fireClip:
+  - _clip: {fileID: 8300000, guid: f4e63cf322480dd40bf738c10bfb9a07, type: 3}
+    _volume: 1
+    _spatialBlend: 0
+    _rollOff: 1
+    _group: 2
+    _priority: 2
+  - _clip: {fileID: 8300000, guid: 15c671d80b9f22a43aae044964f9d143, type: 3}
+    _volume: 1
+    _spatialBlend: 0
+    _rollOff: 1
+    _group: 2
+    _priority: 2
+  - _clip: {fileID: 8300000, guid: 9607608de4ed0354ead5f30bd694ad29, type: 3}
+    _volume: 1
+    _spatialBlend: 0
+    _rollOff: 1
+    _group: 2
+    _priority: 2
+  - _clip: {fileID: 8300000, guid: 90a14ce3f4b31494087282dd57e92ab0, type: 3}
+    _volume: 1
+    _spatialBlend: 0
+    _rollOff: 1
+    _group: 2
+    _priority: 2
+  - _clip: {fileID: 8300000, guid: 7f05268eb91ed9f43af509acafc12d59, type: 3}
+    _volume: 1
+    _spatialBlend: 0
+    _rollOff: 1
+    _group: 2
+    _priority: 2
+  - _clip: {fileID: 8300000, guid: 272477cde49208349864265ec5f6c0b9, type: 3}
+    _volume: 1
+    _spatialBlend: 0
+    _rollOff: 1
+    _group: 2
+    _priority: 2
+  jammedClip:
+    _clip: {fileID: 8300000, guid: 714f3bba35723b843b11a953f841a1c0, type: 3}
+    _volume: 1
+    _spatialBlend: 0
+    _rollOff: 1
+    _group: 2
+    _priority: 2
+  reloadClip:
+  - _clip: {fileID: 8300000, guid: c9a3b8ce4eee29f408e3b1ea01cee4da, type: 3}
+    _volume: 1
+    _spatialBlend: 0
+    _rollOff: 1
+    _group: 2
+    _priority: 2
+  - _clip: {fileID: 8300000, guid: 57cb9dafb4a04d74bb343f6b3392f19d, type: 3}
+    _volume: 1
+    _spatialBlend: 0
+    _rollOff: 1
+    _group: 2
+    _priority: 2
+  - _clip: {fileID: 8300000, guid: bdd05ccf0f55378429584a3666be81f9, type: 3}
+    _volume: 1
+    _spatialBlend: 0
+    _rollOff: 1
+    _group: 2
+    _priority: 2

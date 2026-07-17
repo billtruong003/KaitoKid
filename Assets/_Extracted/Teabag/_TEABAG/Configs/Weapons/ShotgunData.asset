@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f97f2744d34546479d0224724ddeebf, type: 3}
+  m_Name: ShotgunData
+  m_EditorClassIdentifier: Assembly-CSharp::FirearmData
+  auto: 0
+  msBetweenShots: 1428
+  msReloadTime: 4000
+  recoil: 8
+  bulletsInShot: 9
+  bulletSpread: -0.09
+  speed: 4
+  range: 200
+  damageOverTime: 0
+  bulletTypeName: ShotgunAmmo
+  bulletPrefab: {fileID: 8074883670703247556, guid: 471ed61ad317f6b449aa6664e8399eea, type: 3}
+  damage: 0a0b0c0d0e
+  magCapacity: 8
+  fireClip:
+  - _clip: {fileID: 8300000, guid: 0ce739dec458aa24ea7ffd2867435ba3, type: 3}
+    _volume: 1
+    _spatialBlend: 0
+    _rollOff: 1
+    _group: 2
+    _priority: 2
+  - _clip: {fileID: 8300000, guid: 49feb3553942b0745907610ff57125c0, type: 3}
+    _volume: 1
+    _spatialBlend: 0
+    _rollOff: 1
+    _group: 2
+    _priority: 2
+  - _clip: {fileID: 8300000, guid: 26fbb49e0f8a59e4590a663060c2049f, type: 3}
+    _volume: 1
+    _spatialBlend: 0
+    _rollOff: 1
+    _group: 2
+    _priority: 2
+  jammedClip:
+    _clip: {fileID: 8300000, guid: 31f6cb4a82285ab4482ae88f894e3ff1, type: 3}
+    _volume: 1
+    _spatialBlend: 0
+    _rollOff: 1
+    _group: 2
+    _priority: 2
+  reloadClip:
+  - _clip: {fileID: 8300000, guid: df0218ff8e7ff434d981dc56b2494353, type: 3}
+    _volume: 1
+    _spatialBlend: 0
+    _rollOff: 1
+    _group: 2
+    _priority: 2
+  - _clip: {fileID: 8300000, guid: 9201559dda981984bbecb76ec3501f58, type: 3}
+    _volume: 1
+    _spatialBlend: 0
+    _rollOff: 1
+    _group: 2
+    _priority: 2

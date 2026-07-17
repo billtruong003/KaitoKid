@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe1b3528a048a842ae3ce1ac2ea53e5, type: 3}
+  m_Name: AudioSettingsAsset
+  m_EditorClassIdentifier: Teabag.Core::Teabag.Core.AudioSettingsAsset
+  _settings:
+    _audioManagerInstance: {fileID: 6748325518664979232, guid: 6ea8dc65f091e54468d49c77bafe3de1, type: 3}
+    _masterMixer: {fileID: 24100000, guid: 7fd13c0b1b92ebc4d97111b724f1da82, type: 2}
+    _musicMixerGroup: {fileID: -1121073963178462633, guid: 7fd13c0b1b92ebc4d97111b724f1da82, type: 2}
+    _sfxMixerGroup: {fileID: 3812390648388960743, guid: 7fd13c0b1b92ebc4d97111b724f1da82, type: 2}
+    _voiceMixerGroup: {fileID: -4746272652920969481, guid: 7fd13c0b1b92ebc4d97111b724f1da82, type: 2}
+    _ambientMixerGroup: {fileID: -326327174180438705, guid: 7fd13c0b1b92ebc4d97111b724f1da82, type: 2}
+    _uiMixerGroup: {fileID: -8884200719868389621, guid: 7fd13c0b1b92ebc4d97111b724f1da82, type: 2}

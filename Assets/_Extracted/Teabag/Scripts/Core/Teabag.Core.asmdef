@@ -1,0 +1,30 @@
+{
+    "name": "Teabag.Core",
+    "rootNamespace": "Teabag.Core",
+    "references": [
+        "Eflatun.SceneReference",
+        "Fusion.Unity",
+        "Oculus.Platform",
+        "PhotonRealtime",
+        "PlayFab",
+        "Squido.JungleXRKit.Core",
+        "Squido.JungleXRKit.ZLogger",
+        "Unity.Services.Core.Telemetry",
+        "Unity.TextMeshPro",
+        "UniTask",
+        "UnityHFSM",
+        "VContainer",
+        "Squido.JungleXRKit.Avatar",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9",
+        "GUID:df380645f10b7bc4b97d4f5eb6303d95"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

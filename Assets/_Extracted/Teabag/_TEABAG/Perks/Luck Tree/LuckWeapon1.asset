@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21242ca20b971fc458765716381f75e6, type: 3}
+  m_Name: LuckWeapon1
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponAppearPerk
+  id: luck-weapon-1
+  nameDisplay: Luck 15% Assault Rifle
+  cost: 80
+  descript: 15% increase  chance to get Assault Rifle in a chest
+  icon: {fileID: 0}
+  weaponID: w-assault-rifle
+  chanceAppear: 15
