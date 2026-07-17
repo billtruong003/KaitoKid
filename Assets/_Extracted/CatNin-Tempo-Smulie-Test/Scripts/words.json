@@ -1,0 +1,348 @@
+{
+  "words": [
+    {
+      "word": "apple",
+      "definition": "a round fruit with red or green skin and a whitish inside"
+    },
+    {
+      "word": "banana",
+      "definition": "a long curved fruit with a yellow skin and soft, sweet flesh"
+    },
+    {
+      "word": "cat",
+      "definition": "a small domesticated carnivorous mammal with soft fur"
+    },
+    {
+      "word": "dog",
+      "definition": "a domesticated carnivorous mammal that typically has a long snout, an acute sense of smell, non-retractile claws, and a barking, howling, or whining voice"
+    },
+    {
+      "word": "elephant",
+      "definition": "a very large herbivorous mammal with a trunk, long curved ivory tusks, and large ears, native to Africa and southern Asia. It is the largest living land animal"
+    },
+    {
+      "word": "giraffe",
+      "definition": "a large African mammal with a very long neck and forelegs, having a coat patterned with brown patches separated by lighter lines. It is the tallest living animal"
+    },
+    {
+      "word": "hippopotamus",
+      "definition": "a large thick-skinned semiaquatic African mammal, with massive jaws and large tusks. It is related to the pig and lives in rivers and lakes, where it grazes on grass and other plants"
+    },
+    {
+      "word": "monkey",
+      "definition": "a small to medium-sized primate that typically has a long tail, most kinds of which live in trees in tropical countries"
+    },
+    {
+      "word": "zebra",
+      "definition": "an African wild horse with black-and-white stripes and an erect mane"
+    },
+    {
+      "word": "tiger",
+      "definition": "a large solitary cat that has a coat typically orange with black stripes, native to the forests of Asia but becoming increasingly rare"
+    },
+    {
+      "word": "lion",
+      "definition": "a large tawny-colored cat that lives in prides, found in Africa and northwestern India. The male has a flowing shaggy mane and takes little part in hunting, which is done cooperatively by the females"
+    },
+    {
+      "word": "penguin",
+      "definition": "a large flightless seabird of the southern hemisphere, with black upper parts and white underparts and wings developed into flippers for swimming underwater"
+    },
+    {
+      "word": "dolphin",
+      "definition": "a small gregarious toothed whale that typically has a beaklike snout and a curved fin on the back. Dolphins have become well known for their sociable nature and high intelligence"
+    },
+    {
+      "word": "Doctor",
+      "definition": ""
+    },
+    {
+      "word": "Nurse",
+      "definition": ""
+    },
+    {
+      "word": "Engineer",
+      "definition": ""
+    },
+    {
+      "word": "Programmer",
+      "definition": ""
+    },
+    {
+      "word": "Journalist",
+      "definition": ""
+    },
+    {
+      "word": "Chef",
+      "definition": ""
+    },
+    {
+      "word": "Dentist",
+      "definition": ""
+    },
+    {
+      "word": "Pilot",
+      "definition": ""
+    },
+    {
+      "word": "Salesperson",
+      "definition": ""
+    },
+    {
+      "word": "Consultant",
+      "definition": ""
+    },
+    {
+      "word": "Electrician",
+      "definition": ""
+    },
+    {
+      "word": "Shirt",
+      "definition": ""
+    },
+    {
+      "word": "Jacket",
+      "definition": ""
+    },
+    {
+      "word": "Blazer",
+      "definition": ""
+    },
+    {
+      "word": "Coat",
+      "definition": ""
+    },
+    {
+      "word": "Sweater",
+      "definition": ""
+    },
+    {
+      "word": "Trousers",
+      "definition": ""
+    },
+    {
+      "word": "Underwear",
+      "definition": ""
+    },
+    {
+      "word": "Belt",
+      "definition": ""
+    },
+    {
+      "word": "Gloves",
+      "definition": ""
+    },
+    {
+      "word": "Sneakers",
+      "definition": ""
+    },
+    {
+      "word": "Teacher",
+      "definition": ""
+    },
+    {
+      "word": "Artist",
+      "definition": ""
+    },
+    {
+      "word": "Writer",
+      "definition": ""
+    },
+    {
+      "word": "Actor",
+      "definition": ""
+    },
+    {
+      "word": "Musician",
+      "definition": ""
+    },
+    {
+      "word": "Athlete",
+      "definition": ""
+    },
+    {
+      "word": "Scientist",
+      "definition": ""
+    },
+    {
+      "word": "Architect",
+      "definition": ""
+    },
+    {
+      "word": "Lawyer",
+      "definition": ""
+    },
+    {
+      "word": "Judge",
+      "definition": ""
+    },
+    {
+      "word": "Police officer",
+      "definition": ""
+    },
+    {
+      "word": "Firefighter",
+      "definition": ""
+    },
+    {
+      "word": "Soldier",
+      "definition": ""
+    },
+    {
+      "word": "Politician",
+      "definition": ""
+    },
+    {
+      "word": "Diplomat",
+      "definition": ""
+    },
+    {
+      "word": "Banker",
+      "definition": ""
+    },
+    {
+      "word": "Accountant",
+      "definition": ""
+    },
+    {
+      "word": "Economist",
+      "definition": ""
+    },
+    {
+      "word": "Psychologist",
+      "definition": ""
+    },
+    {
+      "word": "Therapist",
+      "definition": ""
+    },
+    {
+      "word": "Sociologist",
+      "definition": ""
+    },
+    {
+      "word": "Historian",
+      "definition": ""
+    },
+    {
+      "word": "Geographer",
+      "definition": ""
+    },
+    {
+      "word": "Biologist",
+      "definition": ""
+    },
+    {
+      "word": "Chemist",
+      "definition": ""
+    },
+    {
+      "word": "Physicist",
+      "definition": ""
+    },
+    {
+      "word": "Mathematician",
+      "definition": ""
+    },
+    {
+      "word": "Philosopher",
+      "definition": ""
+    },
+    {
+      "word": "Theologian",
+      "definition": ""
+    },
+    {
+      "word": "Librarian",
+      "definition": ""
+    },
+    {
+      "word": "Counselor",
+      "definition": ""
+    },
+    {
+      "word": "Social worker",
+      "definition": ""
+    },
+    {
+      "word": "Volunteer",
+      "definition": ""
+    },
+    {
+      "word": "Activist",
+      "definition": ""
+    },
+    {
+      "word": "Entrepreneur",
+      "definition": ""
+    },
+    {
+      "word": "Inventor",
+      "definition": ""
+    },
+    {
+      "word": "Explorer",
+      "definition": ""
+    },
+    {
+      "word": "Adventurer",
+      "definition": ""
+    },
+    {
+      "word": "Traveler",
+      "definition": ""
+    },
+    {
+      "word": "Tourist",
+      "definition": ""
+    },
+    {
+      "word": "Backpacker",
+      "definition": ""
+    },
+    {
+      "word": "Mountaineer",
+      "definition": ""
+    },
+    {
+      "word": "Sailor",
+      "definition": ""
+    },
+    {
+      "word": "Fisherman",
+      "definition": ""
+    },
+    {
+      "word": "Hunter",
+      "definition": ""
+    },
+    {
+      "word": "Gardener",
+      "definition": ""
+    },
+    {
+      "word": "Farmer",
+      "definition": ""
+    },
+    {
+      "word": "Cook",
+      "definition": ""
+    },
+    {
+      "word": "Baker",
+      "definition": ""
+    },
+    {
+      "word": "Butcher",
+      "definition": ""
+    },
+    {
+      "word": "Waiter",
+      "definition": ""
+    },
+    {
+      "word": "Waitress",
+      "definition": ""
+    }
+  ]
+}

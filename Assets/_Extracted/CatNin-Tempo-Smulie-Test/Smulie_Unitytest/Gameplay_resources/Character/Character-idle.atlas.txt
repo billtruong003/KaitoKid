@@ -1,0 +1,125 @@
+
+Character-idle.png
+size: 352,268
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+board
+  rotate: true
+  xy: 2, 68
+  size: 198, 100
+  orig: 198, 100
+  offset: 0, 0
+  index: -1
+character_body
+  rotate: true
+  xy: 203, 82
+  size: 45, 66
+  orig: 45, 66
+  offset: 0, 0
+  index: -1
+character_eyes
+  rotate: true
+  xy: 304, 2
+  size: 89, 32
+  orig: 89, 32
+  offset: 0, 0
+  index: -1
+character_front_scraf_piece
+  rotate: true
+  xy: 271, 85
+  size: 42, 29
+  orig: 42, 29
+  offset: 0, 0
+  index: -1
+character_head
+  rotate: true
+  xy: 164, 129
+  size: 137, 108
+  orig: 137, 108
+  offset: 0, 0
+  index: -1
+character_left_arm
+  rotate: true
+  xy: 2, 6
+  size: 60, 36
+  orig: 60, 36
+  offset: 0, 0
+  index: -1
+character_left_knife
+  rotate: true
+  xy: 233, 3
+  size: 77, 69
+  orig: 77, 69
+  offset: 0, 0
+  index: -1
+character_left_leg
+  rotate: false
+  xy: 191, 10
+  size: 40, 56
+  orig: 40, 56
+  offset: 0, 0
+  index: -1
+character_nose
+  rotate: false
+  xy: 203, 69
+  size: 25, 11
+  orig: 25, 11
+  offset: 0, 0
+  index: -1
+character_rear_scarf_piece
+  rotate: true
+  xy: 274, 156
+  size: 110, 76
+  orig: 110, 76
+  offset: 0, 0
+  index: -1
+character_right_earring
+  rotate: false
+  xy: 274, 133
+  size: 16, 21
+  orig: 16, 21
+  offset: 0, 0
+  index: -1
+character_right_hand
+  rotate: true
+  xy: 302, 93
+  size: 39, 35
+  orig: 39, 35
+  offset: 0, 0
+  index: -1
+character_right_knife
+  rotate: true
+  xy: 104, 125
+  size: 141, 58
+  orig: 141, 58
+  offset: 0, 0
+  index: -1
+character_right_leg
+  rotate: false
+  xy: 147, 8
+  size: 42, 58
+  orig: 42, 58
+  offset: 0, 0
+  index: -1
+character_scar
+  rotate: true
+  xy: 292, 134
+  size: 20, 41
+  orig: 20, 41
+  offset: 0, 0
+  index: -1
+character_sword
+  rotate: false
+  xy: 40, 7
+  size: 105, 59
+  orig: 105, 59
+  offset: 0, 0
+  index: -1
+character_tail
+  rotate: false
+  xy: 104, 68
+  size: 97, 55
+  orig: 97, 55
+  offset: 0, 0
+  index: -1
