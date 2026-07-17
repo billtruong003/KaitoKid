@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 058ae9d05ca5c204db8b76c5bc936989
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 130518
+  packageName: Photon Voice 2
+  packageVersion: 2.59
+  assetPath: Assets/Photon/PhotonVoice/Code/Fusion/Editor/PhotonVoice.Fusion.Editor.asmdef
+  uploadId: 756092

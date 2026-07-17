@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Prefabs/Player/HardwareRig Variant.prefab.meta
+guid: f7a280ea0ad23a84fb7bda9a375b997a
+========
+guid: af0e960bb4504924e8d385c0ee00601e
+>>>>>>>> develop:Assets/Prefabs/Networking/PlayerSpawner.prefab.meta
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

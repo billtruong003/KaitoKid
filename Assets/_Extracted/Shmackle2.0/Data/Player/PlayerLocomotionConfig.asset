@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51a3cb0ff98a786499bf7fa659e39a5a, type: 3}
+  m_Name: PlayerLocomotionConfig
+  m_EditorClassIdentifier: Shmackle::PlayerLocomotionConfig
+  VelocityLimit: 0.4
+  MaxJumpSpeed: 6.5
+  JumpMultiplier: 1.5
+  VelocityHistorySize: 8
+  Mass: 0.4
+  HeightOffset: -0.1
+  IsDoubleGrabEnabled: 1
+  BodyOffsetEnabled: 1
+  MaxArmLength: 1.5
+  UnStickDistance: 1
+  MinimumRaycastDistance: 0.035
+  DefaultSlideFactor: 0.01
+  DefaultPrecision: 0.9995
+  JiggleStretch: 0.5
+  JiggleStiffness: 1
+  JiggleIgnoreRootMotion: 0.31
+  JiggleGravity: 0.27
+  RightHandOffset: {x: 0.03, y: -0.03, z: -0.11}
+  LeftHandOffset: {x: -0.03, y: -0.03, z: -0.11}
+  MidAirRequirement: 1
+  CanGenerateLineSegment: 0
+  HandAlignmentThreshold: 0.4
+  DoubleJumpVelocityMultiplier: 6.15
+  HandSpeedThreshold: 0.2
+  ThrowPresets: 1
+  HorizontalForce: 0
+  VerticalForce: 0
+  IsSmoothTurningEnabled: 0
+  IsSnapTurningEnabled: 0
+  TurningPresets: 1
+  SlowTurningSpeed: 6
+  MediumTurningSpeed: 10
+  FastTurningSpeed: 15
+  MouthMovementGain: 5
+  MouthResponseSpeed: 14

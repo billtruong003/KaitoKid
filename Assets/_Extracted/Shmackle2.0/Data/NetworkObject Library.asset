@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a4397d5d682b8e419439043aba51dae, type: 3}
+  m_Name: NetworkObject Library
+  m_EditorClassIdentifier: Stratton.Networking::Stratton.Networking.NetworkObjectLibrary
+  _networkObjectsData:
+  - NetworkObjectType:
+      _name: Player
+    NetworkObjectPrefab: {fileID: 575077072482186464, guid: ee1442939206277499364f0c68e694d0, type: 3}
+    NetworkObjectGuid: ee144293-9206-2774-9936-4f0c68e694d0
+    Poolable: 1
+    PrewarmedInstances: 5
+    MaxInstances: 0
+  - NetworkObjectType:
+      _name: ShmacklePad
+    NetworkObjectPrefab: {fileID: 2994026018449471356, guid: cd7759fcccc4549478b3be132db87f2d, type: 3}
+    NetworkObjectGuid: cd7759fc-ccc4-5494-78b3-be132db87f2d
+    Poolable: 1
+    PrewarmedInstances: 5
+    MaxInstances: 0

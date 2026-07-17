@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fd336964f64ce6448f6d8de46bb86be, type: 3}
+  m_Name: NetworkingSettings
+  m_EditorClassIdentifier: Stratton.Core::Stratton.Networking.NetworkingSettings
+  _gameMode: 2
+  _applicationType: 1
+  _matchmakingType:
+    _name: PhotonCloud
+  _sessionName: develop_1128
+  _playerCount: 0
+  _additionalSessionProperties: []
+  _runnerPrefab: {fileID: 1305599585930157339, guid: ad76302ae2b30024aa2ba66e38dfe1ac, type: 3}
+  _sceneManagerPrefab: {fileID: 1367956731286245093, guid: 3662f928abe48c342ae1c589b7408ff6, type: 3}
+  _areaOfInterestRadius: 5

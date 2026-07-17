@@ -1,0 +1,365 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf0e66120a8633043a76515ed176256a, type: 3}
+  m_Name: MovementDebugCommandCollection
+  m_EditorClassIdentifier: Stratton.Core::Stratton.Debugging.SimulatedCommandCollection
+  _simulatedCommands:
+  - SimulationInfo:
+      DisplayName: Output Config File
+      Command: OutputConfigFile
+      Min: 0
+      Max: 0
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 7f1eff6a3905c40479401f0ec03213c9, type: 2}
+      Options: []
+      Arguments: []
+    SimulatorPrefab: {fileID: 1786714035208212327, guid: 55cbf225943ca704984e7a5379462958, type: 3}
+  - SimulationInfo:
+      DisplayName: Read Config File
+      Command: ReadConfigFile
+      Min: 0
+      Max: 0
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 7f1eff6a3905c40479401f0ec03213c9, type: 2}
+      Options: []
+      Arguments: []
+    SimulatorPrefab: {fileID: 1786714035208212327, guid: 55cbf225943ca704984e7a5379462958, type: 3}
+  - SimulationInfo:
+      DisplayName: Velocity Limit
+      Command: SetFloatFieldOnScriptableObject
+      Min: 0.1
+      Max: 3
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 7f1eff6a3905c40479401f0ec03213c9, type: 2}
+      Options: []
+      Arguments:
+      - VelocityLimit
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Max Jump Speed
+      Command: SetFloatFieldOnScriptableObject
+      Min: 5
+      Max: 10
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 7f1eff6a3905c40479401f0ec03213c9, type: 2}
+      Options: []
+      Arguments:
+      - MaxJumpSpeed
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Jump Multiplier
+      Command: SetFloatFieldOnScriptableObject
+      Min: 0.8
+      Max: 1.5
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 7f1eff6a3905c40479401f0ec03213c9, type: 2}
+      Options: []
+      Arguments:
+      - JumpMultiplier
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Velocity History Buffer
+      Command: SetIntFieldOnScriptableObject
+      Min: 5
+      Max: 15
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 7f1eff6a3905c40479401f0ec03213c9, type: 2}
+      Options: []
+      Arguments:
+      - VelocityHistorySize
+    SimulatorPrefab: {fileID: 7167949598285769123, guid: d1653927b6f19894fa162322d3d7891c, type: 3}
+  - SimulationInfo:
+      DisplayName: Player Weight
+      Command: SetFloatFieldOnScriptableObject
+      Min: 0.1
+      Max: 5
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 7f1eff6a3905c40479401f0ec03213c9, type: 2}
+      Options: []
+      Arguments:
+      - Mass
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Body Height Offset
+      Command: SetFloatFieldOnScriptableObject
+      Min: -0.45
+      Max: 0.3
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 7f1eff6a3905c40479401f0ec03213c9, type: 2}
+      Options: []
+      Arguments:
+      - HeightOffset
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Arm Length
+      Command: SetFloatFieldOnScriptableObject
+      Min: 0.5
+      Max: 1.5
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 7f1eff6a3905c40479401f0ec03213c9, type: 2}
+      Options: []
+      Arguments:
+      - MaxArmLength
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Double Hand Locomotion
+      Command: SetBoolFieldOnScriptableObject
+      Min: 0
+      Max: 0
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 7f1eff6a3905c40479401f0ec03213c9, type: 2}
+      Options: []
+      Arguments:
+      - IsDoubleGrabEnabled
+    SimulatorPrefab: {fileID: 1786714035208212327, guid: f1031eed52e909e4082278a5f2303f25, type: 3}
+  - SimulationInfo:
+      DisplayName: Additional Body Offset
+      Command: SetBoolFieldOnScriptableObject
+      Min: 0
+      Max: 0
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 7f1eff6a3905c40479401f0ec03213c9, type: 2}
+      Options: []
+      Arguments:
+      - BodyOffsetEnabled
+    SimulatorPrefab: {fileID: 1786714035208212327, guid: f1031eed52e909e4082278a5f2303f25, type: 3}
+  - SimulationInfo:
+      DisplayName: Un-Sticking Distance
+      Command: SetFloatFieldOnScriptableObject
+      Min: 0.8
+      Max: 1.5
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 7f1eff6a3905c40479401f0ec03213c9, type: 2}
+      Options: []
+      Arguments:
+      - UnStickDistance
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Minimum Raycast Distance
+      Command: SetFloatFieldOnScriptableObject
+      Min: 0.01
+      Max: 0.1
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 7f1eff6a3905c40479401f0ec03213c9, type: 2}
+      Options: []
+      Arguments:
+      - MinimumRaycastDistance
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Default Slide Factor
+      Command: SetFloatFieldOnScriptableObject
+      Min: 0
+      Max: 0.1
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 7f1eff6a3905c40479401f0ec03213c9, type: 2}
+      Options: []
+      Arguments:
+      - DefaultSlideFactor
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Default Raycast Precision
+      Command: SetFloatFieldOnScriptableObject
+      Min: 0.5
+      Max: 1.5
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 7f1eff6a3905c40479401f0ec03213c9, type: 2}
+      Options: []
+      Arguments:
+      - DefaultPrecision
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Jiggle Stretch
+      Command: SetFloatFieldOnScriptableObject
+      Min: 0
+      Max: 1
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 4f3432529658e417da7724515a1f5c08, type: 2}
+      Options: []
+      Arguments:
+      - JiggleStretch
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Jiggle Stiffness
+      Command: SetFloatFieldOnScriptableObject
+      Min: 0
+      Max: 1
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 4f3432529658e417da7724515a1f5c08, type: 2}
+      Options: []
+      Arguments:
+      - JiggleStiffness
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Jiggle Ignore RootMotion
+      Command: SetFloatFieldOnScriptableObject
+      Min: 0.1
+      Max: 0.5
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 4f3432529658e417da7724515a1f5c08, type: 2}
+      Options: []
+      Arguments:
+      - JiggleIgnoreRootMotion
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Jiggle Gravity
+      Command: SetFloatFieldOnScriptableObject
+      Min: 0.1
+      Max: 3
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 4f3432529658e417da7724515a1f5c08, type: 2}
+      Options: []
+      Arguments:
+      - JiggleGravity
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Mid Air Requirement
+      Command: SetBoolFieldOnScriptableObject
+      Min: 0
+      Max: 0
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 1ce1480a499d54bafbeb05beda412bbd, type: 2}
+      Options: []
+      Arguments:
+      - MidAirRequirement
+    SimulatorPrefab: {fileID: 1786714035208212327, guid: f1031eed52e909e4082278a5f2303f25, type: 3}
+  - SimulationInfo:
+      DisplayName: Generate Line Segments
+      Command: SetBoolFieldOnScriptableObject
+      Min: 0
+      Max: 0
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 1ce1480a499d54bafbeb05beda412bbd, type: 2}
+      Options: []
+      Arguments:
+      - CanGenerateLineSegment
+    SimulatorPrefab: {fileID: 1786714035208212327, guid: f1031eed52e909e4082278a5f2303f25, type: 3}
+  - SimulationInfo:
+      DisplayName: Hand Alignment Threshold
+      Command: SetFloatFieldOnScriptableObject
+      Min: 0
+      Max: 1
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 1ce1480a499d54bafbeb05beda412bbd, type: 2}
+      Options: []
+      Arguments:
+      - HandAlignmentThreshold
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Double Jump Velocity Multiplier
+      Command: SetFloatFieldOnScriptableObject
+      Min: 0.1
+      Max: 20
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 1ce1480a499d54bafbeb05beda412bbd, type: 2}
+      Options: []
+      Arguments:
+      - DoubleJumpVelocityMultiplier
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Hand Speed Threshold
+      Command: SetFloatFieldOnScriptableObject
+      Min: 0
+      Max: 0.5
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 1ce1480a499d54bafbeb05beda412bbd, type: 2}
+      Options: []
+      Arguments:
+      - HandSpeedThreshold
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Throw Presets
+      Command: SetIntFieldOnScriptableObject
+      Min: 1
+      Max: 3
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 23573cffeadfc4e33839435cd2726bce, type: 2}
+      Options: []
+      Arguments:
+      - ThrowPresets
+    SimulatorPrefab: {fileID: 7167949598285769123, guid: d1653927b6f19894fa162322d3d7891c, type: 3}
+  - SimulationInfo:
+      DisplayName: Horizontal Force
+      Command: SetFloatFieldOnScriptableObject
+      Min: 0
+      Max: 1
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 23573cffeadfc4e33839435cd2726bce, type: 2}
+      Options: []
+      Arguments:
+      - HorizontalForce
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Vertical Force
+      Command: SetFloatFieldOnScriptableObject
+      Min: 0
+      Max: 1
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 23573cffeadfc4e33839435cd2726bce, type: 2}
+      Options: []
+      Arguments:
+      - VerticalForce
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Mouth Speech Sensitivity
+      Command: SetFloatFieldOnScriptableObject
+      Min: 1
+      Max: 5
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 78ac863c65d81403ab9ff18fb29e3b2b, type: 2}
+      Options: []
+      Arguments:
+      - MouthSpeechSensitivity
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Mouth Open Close Speed
+      Command: SetFloatFieldOnScriptableObject
+      Min: 1
+      Max: 25
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 78ac863c65d81403ab9ff18fb29e3b2b, type: 2}
+      Options: []
+      Arguments:
+      - MouthOpenCloseSpeed
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Toggle Flashlight
+      Command: SetBoolFieldOnScriptableObject
+      Min: 0
+      Max: 0
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 7a767981d6c3f524a9aafbc15a08d8ff, type: 2}
+      Options: []
+      Arguments:
+      - IsFlashlightEnabled
+    SimulatorPrefab: {fileID: 1786714035208212327, guid: f1031eed52e909e4082278a5f2303f25, type: 3}
+  - SimulationInfo:
+      DisplayName: Flashlight Intensity
+      Command: SetFloatFieldOnScriptableObject
+      Min: 0.1
+      Max: 5
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 7a767981d6c3f524a9aafbc15a08d8ff, type: 2}
+      Options: []
+      Arguments:
+      - FlashlightIntensity
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}
+  - SimulationInfo:
+      DisplayName: Flashlight Range
+      Command: SetFloatFieldOnScriptableObject
+      Min: 0.1
+      Max: 20
+      Adjustment: 0
+      ScriptableObject: {fileID: 11400000, guid: 7a767981d6c3f524a9aafbc15a08d8ff, type: 2}
+      Options: []
+      Arguments:
+      - FlashlightRange
+    SimulatorPrefab: {fileID: 6607355314400689588, guid: 04bb81ca4a44bdb4784807579b583659, type: 3}

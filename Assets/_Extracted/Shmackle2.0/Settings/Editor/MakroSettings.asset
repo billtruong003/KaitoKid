@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2606967c96a77f840baaba589dcf917a, type: 3}
+  m_Name: MakroSettings
+  m_EditorClassIdentifier: Stratton.Core.Editor::Stratton.Core.Editor.MakroSettings
+  MakroToolBarScriptPath: Scripts/Editor/Makro/MakroToolBar.cs
+  Data:
+  - ButtonName: Open Main
+    TargetType: 0
+    Target: {fileID: 102900000, guid: 72c3ca2198f9d4948a57f2a538b9e3cf, type: 3}
+    ComponentName: 
+    MethodName: 
+    Action: 3
+    Show: 0
+  - ButtonName: Play Main
+    TargetType: 0
+    Target: {fileID: 102900000, guid: 72c3ca2198f9d4948a57f2a538b9e3cf, type: 3}
+    ComponentName: 
+    MethodName: 
+    Action: 0
+    Show: 0
+  - ButtonName: Open Gameplay
+    TargetType: 0
+    Target: {fileID: 102900000, guid: 492599a935b101e479c081e235dff08f, type: 3}
+    ComponentName: 
+    MethodName: 
+    Action: 3
+    Show: 0
+  - ButtonName: Open UIHUD
+    TargetType: 0
+    Target: {fileID: 102900000, guid: be966e4b53aa3ad4baadb705a2f4fcd0, type: 3}
+    ComponentName: 
+    MethodName: 
+    Action: 3
+    Show: 0

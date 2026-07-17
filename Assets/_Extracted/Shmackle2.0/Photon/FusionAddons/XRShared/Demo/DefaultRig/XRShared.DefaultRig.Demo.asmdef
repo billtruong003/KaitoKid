@@ -1,0 +1,19 @@
+{
+    "name": "XRShared.DefaultRig.Demo",
+    "rootNamespace": "",
+    "references": [
+        "GUID:dd27059c5d9ba004c8f167208b122f60",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:84969bac824196a428b7fdde6b4bb710",
+        "GUID:a8d673551df638f4d9700d9faea7a35e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

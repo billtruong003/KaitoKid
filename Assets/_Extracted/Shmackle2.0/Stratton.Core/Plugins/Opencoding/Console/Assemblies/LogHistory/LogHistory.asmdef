@@ -1,0 +1,14 @@
+{
+    "name": "LogHistory",
+    "references": [
+        "GUID:4c874c4723f2d408eb3dacf63c6aeffb"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Fusion.Addons.KCC.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:40170dd5523a51649aa23b5475e52e70",
+        "GUID:4d449a4732e064d26a3069f2cfd88917"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

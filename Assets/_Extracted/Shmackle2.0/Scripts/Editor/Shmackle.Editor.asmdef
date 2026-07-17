@@ -1,0 +1,21 @@
+{
+    "name": "Shmackle.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:244f8c1eb513f224b9e18a1f4489b89a",
+        "GUID:224e13b54b796e54bb8722528fe1de9e",
+        "GUID:9896b2a457816154a97ea0029357d80b",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

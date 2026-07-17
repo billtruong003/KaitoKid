@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b64e7b2fa31b3784d9383167ec149ff7
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 130518
+  packageName: Photon Voice 2
+  packageVersion: 2.59
+  assetPath: Assets/Photon/PhotonVoice/PhotonVoiceApi/changes-voice-api.txt
+  uploadId: 756092

@@ -1,0 +1,29 @@
+{
+    "name": "Shmackle.Debug",
+    "rootNamespace": "",
+    "references": [
+        "GUID:244f8c1eb513f224b9e18a1f4489b89a",
+        "GUID:224e13b54b796e54bb8722528fe1de9e",
+        "GUID:00ff96f6130f745ab99f5ff16fe5b560",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:08b38f39e2d9e594389b7a4cf4c2c338",
+        "GUID:e40ba710768534012815d3193fa296cb",
+        "GUID:4847341ff46394e83bb78fbd0652937e",
+        "GUID:ce522b6ed64c8be4c989a1d26d0e3275",
+        "GUID:7e8de776b20bad54f9b5fd7270ab3b67",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        ""
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "DEBUG || UNITY_EDITOR || DEVELOPMENT_BUILD"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74ea8bd3a2008b945af8e3cc0c3c6bc1, type: 3}
+  m_Name: LogSettings
+  m_EditorClassIdentifier: Stratton.Core::Stratton.Core.LogSettings
+  _isLoggingInRuntimeDisabled: 0
+  _channelSettings:
+    _serializedList:
+    - Key: Core
+      Value:
+        _target: 1
+    - Key: Debug
+      Value:
+        _target: 1
+    - Key: Exception
+      Value:
+        _target: 1
+    - Key: GameStates
+      Value:
+        _target: 1
+    - Key: Build
+      Value:
+        _target: 1
+    - Key: Deployment
+      Value:
+        _target: 1
+    - Key: Save
+      Value:
+        _target: 1
+    - Key: Loading
+      Value:
+        _target: 1
+    - Key: NetworkRunnerCallbacks
+      Value:
+        _target: 1
+    - Key: NetworkingSystem
+      Value:
+        _target: 1
+    - Key: Matchmaking
+      Value:
+        _target: 1
+    - Key: NetworkingSettings
+      Value:
+        _target: 1
+    - Key: Multiplay
+      Value:
+        _target: 1
+    - Key: ObjectPool
+      Value:
+        _target: 1
+    - Key: SceneManager
+      Value:
+        _target: 1
+    - Key: Connections
+      Value:
+        _target: 1
+    - Key: ClientPrediction
+      Value:
+        _target: 1
+    - Key: Voice
+      Value:
+        _target: 1
+    - Key: User
+      Value:
+        _target: 1
+    - Key: UI
+      Value:
+        _target: 1
+    - Key: Player
+      Value:
+        _target: 1
+    - Key: Gameplay
+      Value:
+        _target: 1

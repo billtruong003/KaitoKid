@@ -1,0 +1,8 @@
+<linker>
+        <assembly fullname="UnityEngine">
+               <type fullname="UnityEngine.TouchScreenKeyboard" preserve="all"/>
+        </assembly>
+        <assembly fullname="Assembly-CSharp">
+            <type fullname="Opencoding.Console.NativeMethods" preserve="all"/>
+        </assembly>
+</linker>

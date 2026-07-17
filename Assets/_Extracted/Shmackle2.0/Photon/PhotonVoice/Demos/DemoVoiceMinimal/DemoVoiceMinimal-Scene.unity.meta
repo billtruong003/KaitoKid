@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c1799a0d8dc843949aa93e4f66dc8355
+timeCreated: 1525432336
+licenseType: Store
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 130518
+  packageName: Photon Voice 2
+  packageVersion: 2.59
+  assetPath: Assets/Photon/PhotonVoice/Demos/DemoVoiceMinimal/DemoVoiceMinimal-Scene.unity
+  uploadId: 756092

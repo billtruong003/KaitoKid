@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 4f03681b63a70fa40a1a81cca69c599b
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 130518
+  packageName: Photon Voice 2
+  packageVersion: 2.59
+  assetPath: Assets/Photon/PhotonRealtime/Code/changes-realtime.txt
+  uploadId: 756092

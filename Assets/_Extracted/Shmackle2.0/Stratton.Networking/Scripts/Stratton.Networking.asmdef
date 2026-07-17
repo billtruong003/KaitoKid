@@ -1,0 +1,24 @@
+{
+    "name": "Stratton.Networking",
+    "rootNamespace": "",
+    "references": [
+        "GUID:224e13b54b796e54bb8722528fe1de9e",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:08b38f39e2d9e594389b7a4cf4c2c338",
+        "GUID:1baf1ffff1031e948b3b228ab3453251",
+        "GUID:831409e8f9d13b5479a3baef9822ad34",
+        "GUID:b59fae9c7ebc1574e8690f2570b29d6f",
+        "GUID:415d649162855d948bfd44d8c5f1e7a2",
+        "GUID:8e3c55029ca641543bf030857af4d525",
+        "GUID:1d7fefa29e3076d4babd9dd8f8bb5457"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

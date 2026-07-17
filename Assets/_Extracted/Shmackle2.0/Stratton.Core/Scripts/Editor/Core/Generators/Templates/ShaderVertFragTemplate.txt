@@ -1,0 +1,54 @@
+Shader "SHADERNAME" 
+{
+	Properties 
+	{
+		PROPERTIESLIST
+	}
+		
+	SubShader 
+	{
+		Tags{ QUEUE RENDERTYPE "IgnoreProjector"="True" }
+		BLEND
+		ZWRITE ZTEST
+		CULL LIGHTING FOG
+		Pass 
+		{				
+			CGPROGRAM
+			#pragma vertex vert
+			#pragma fragment frag
+			#pragma fragmentoption ARB_precision_hint_fastest	
+				
+			#include "UnityCG.cginc"
+				
+			PROPFIELDLIST
+				
+			struct Appdata 
+			{
+		        float4 vertex : POSITION;
+		        float4 texcoord : TEXCOORD0;
+		    };
+				
+			struct V2F 
+			{
+				float4  pos : SV_POSITION;
+				float2  uv : TEXCOORD0;
+			};
+				
+			V2F vert(Appdata v)
+			{
+				V2F o;
+				o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+				PROPFIELDINIT
+				return o;
+			}
+				
+			fixed4 frag(V2F i) : COLOR
+			{
+				PROPFIELDLOAD
+				return col;
+			}
+			ENDCG
+		
+		}
+	}
+}

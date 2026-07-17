@@ -1,0 +1,24 @@
+using UnityEditor;
+using UnityEngine;
+using System.IO;
+using StrattonTools;
+
+[CanEditMultipleObjects]
+[CustomEditor(typeof(COMPONENT_NAME), true)] 
+public class COMPONENT_NAMEEditor : InspectorEditor
+{		
+	COMPONENT_NAME COMPONENT_LOWER;
+    public override void OnInspectorGUI() 
+	{
+		base.OnInspectorGUI();
+		
+		COMPONENT_LOWER = (COMPONENT_NAME)target;
+		
+		if(COMPONENT_LOWER)
+		{			
+
+		
+		}
+    }
+
+}

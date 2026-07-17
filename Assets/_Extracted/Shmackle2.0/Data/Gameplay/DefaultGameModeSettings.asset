@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ce508fd0ebadcc44944d62dcc69b8f6, type: 3}
+  m_Name: DefaultGameModeSettings
+  m_EditorClassIdentifier: Shmackle::Shmackle.Gameplay.GameModeSettings
+  _autoStartMatch: 1
+  _playerStatePrefab: {fileID: 8697807067906321744, guid: 078b4f0880555a340bd084d1f3036944, type: 3}
+  _playerObjectPrefab: {fileID: 575077072482186464, guid: ee1442939206277499364f0c68e694d0, type: 3}
+  _defaultClientSpawnedPrefabs: []

@@ -1,0 +1,29 @@
+{
+    "name": "Console",
+    "references": [
+        "GUID:00ff96f6130f745ab99f5ff16fe5b560",
+        "GUID:0d127ee0de9154e42bf43308d3e355b4",
+        "GUID:4c874c4723f2d408eb3dacf63c6aeffb",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:2ace7ebb826df10459d12b4f3c4a9407"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "1.0",
+            "define": "INPUT_SYSTEM_ENABLED"
+        },
+        {
+            "name": "com.yasirkula.nativeshare",
+            "expression": "1.0",
+            "define": "NATIVE_SHARE_ENABLED"
+        }
+    ]
+}

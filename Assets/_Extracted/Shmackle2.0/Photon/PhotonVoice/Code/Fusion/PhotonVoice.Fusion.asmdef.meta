@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4b8d453a692b698439b42ed8d69de06f
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 130518
+  packageName: Photon Voice 2
+  packageVersion: 2.59
+  assetPath: Assets/Photon/PhotonVoice/Code/Fusion/PhotonVoice.Fusion.asmdef
+  uploadId: 756092

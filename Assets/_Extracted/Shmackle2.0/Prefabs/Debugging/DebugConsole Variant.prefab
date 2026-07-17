@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5615270713329823976
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3632570308171533542, guid: dd187933ee838124da4eb26e2bd28937, type: 3}
+      propertyPath: m_Name
+      value: DebugConsole Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3632570308171763910, guid: dd187933ee838124da4eb26e2bd28937, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3632570308171763910, guid: dd187933ee838124da4eb26e2bd28937, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3632570308171763910, guid: dd187933ee838124da4eb26e2bd28937, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3632570308171763910, guid: dd187933ee838124da4eb26e2bd28937, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3632570308171763910, guid: dd187933ee838124da4eb26e2bd28937, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3632570308171763910, guid: dd187933ee838124da4eb26e2bd28937, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3632570308171763910, guid: dd187933ee838124da4eb26e2bd28937, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3632570308171763910, guid: dd187933ee838124da4eb26e2bd28937, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3632570308171763910, guid: dd187933ee838124da4eb26e2bd28937, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3632570308171763910, guid: dd187933ee838124da4eb26e2bd28937, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3632570308171533542, guid: dd187933ee838124da4eb26e2bd28937, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4943235388649190095}
+    - targetCorrespondingSourceObject: {fileID: 3632570308171533542, guid: dd187933ee838124da4eb26e2bd28937, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6732601010710426281}
+  m_SourcePrefab: {fileID: 100100000, guid: dd187933ee838124da4eb26e2bd28937, type: 3}
+--- !u!1 &9188479604457716750 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3632570308171533542, guid: dd187933ee838124da4eb26e2bd28937, type: 3}
+  m_PrefabInstance: {fileID: 5615270713329823976}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-4943235388649190095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9188479604457716750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 809669d9df2b59a46ba98cb7a7c3ba1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Shmackle::Shmackle.Debugging.DebugConsoleCommands
+  _playerLocomotionConfig: {fileID: 11400000, guid: 7f1eff6a3905c40479401f0ec03213c9, type: 2}
+  _bootyJiggleConfig: {fileID: 11400000, guid: 4f3432529658e417da7724515a1f5c08, type: 2}
+  _doubleJumpConfig: {fileID: 11400000, guid: 1ce1480a499d54bafbeb05beda412bbd, type: 2}
+  _throwingConfig: {fileID: 11400000, guid: 23573cffeadfc4e33839435cd2726bce, type: 2}
+  _turningConfig: {fileID: 11400000, guid: 77e3d12fc802b4590841d5a01d394058, type: 2}
+  _mouthConfig: {fileID: 11400000, guid: 78ac863c65d81403ab9ff18fb29e3b2b, type: 2}
+  _flashlightConfig: {fileID: 11400000, guid: 7a767981d6c3f524a9aafbc15a08d8ff, type: 2}
+--- !u!114 &6732601010710426281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9188479604457716750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 168e69114bc17424d8718718d8e19f1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Shmackle.Debug::DebugSpawningCommands
+  _dummyProtobroPrefab: {fileID: 2128745254216498406, guid: 87c93aadb4b840a4a82337564ce0eb74, type: 3}
+  _debugFrameTimeCanvas: {fileID: 1229655774924932021, guid: 5d053aa8df46f2746b7c7693901a02b7, type: 3}
+  _cellSize: 0.5
+  _columns: 4
+  _rows: 4
+  _layerHeight: 0.5
