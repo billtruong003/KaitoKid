@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EyeWithParallax 1
+  m_Shader: {fileID: 4800000, guid: 196241a5c1a40430c9d15ca908cf150c, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _VeinThreshold
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: f17ded19eecf64aebbd076d29e939a6f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HighlightMap:
+        m_Texture: {fileID: 2800000, guid: c12356e7431af4726ac278d84f0bd057, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrisMap:
+        m_Texture: {fileID: 2800000, guid: c6b28ff80d6fb4f80a701a0ba4a70640, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrisTex:
+        m_Texture: {fileID: 2800000, guid: 699f0275fbb5d44378af79ca0c1ce22a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VeinTex:
+        m_Texture: {fileID: 2800000, guid: f17ded19eecf64aebbd076d29e939a6f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VeinsMap:
+        m_Texture: {fileID: 2800000, guid: f17ded19eecf64aebbd076d29e939a6f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CorneaSmoothness: 0.95
+    - _DetailIntensity: 1
+    - _EnergySpeed: 1
+    - _GlossEdge: 0.02
+    - _GlossSize: 0.1
+    - _HighlightPosX: 0
+    - _HighlightPosY: 0
+    - _HighlightPower: 5
+    - _HighlightScale: 0.3
+    - _HighlightSize: 0.05
+    - _HighlightX: 0.15
+    - _HighlightY: 0.15
+    - _IrisRadius: 0.4
+    - _IrisScale: 0.3
+    - _IrisSize: 0.3
+    - _IrisSoftness: 0.02
+    - _ParallaxStrength: 0.1
+    - _PupilDepth: 0.5
+    - _PupilRadius: 0.15
+    - _RampSmooth: 0.05
+    - _RampThreshold: 0.5
+    - _VeinSoftness: 0.2
+    - _VeinThreshold: 0.237
+    - _VeinsCutoff: 0.068
+    - _VeinsIntensity: 5
+    - _VeinsMultiplier: 0
+    - _VeinsSmoothness: 0.5
+    m_Colors:
+    - _BaseColor: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _GlossOffset: {r: 0.05, g: 0.05, b: 0, a: 0}
+    - _HighlightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _IrisColor: {r: 0.5477066, g: 0, b: 1, a: 1}
+    - _IrisColor2: {r: 0.09999997, g: 0.29999998, b: 0.8, a: 1}
+    - _PupilColor: {r: 0.049999982, g: 0.049999982, b: 0.09999997, a: 1}
+    - _PupilOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _ScleraColor: {r: 0.48523474, g: 0, b: 1, a: 1}
+    - _ShadowColor: {r: 0.7, g: 0.7, b: 0.8, a: 1}
+    - _VeinColor: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 1}
+    - _VeinsColor: {r: 0.51573896, g: 0, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

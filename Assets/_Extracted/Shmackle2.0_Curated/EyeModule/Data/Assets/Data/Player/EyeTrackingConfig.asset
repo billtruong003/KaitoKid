@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3331e11328e434eb39bb14fe308c6380, type: 3}
+  m_Name: EyeTrackingConfig
+  m_EditorClassIdentifier: Shmackle::EyeAnimated.Config.EyeTrackingConfig
+  TrackingDistance: 1.5
+  ViewConeAngle: 160
+  LookRotationOffset: {x: 90, y: 0, z: 0}
+  Damping: 15
+  LookSensitivity: 3
+  LimitUv: {x: 0.4, y: 0.15}
+  AudioSensitivity: 2
+  MinIrisScale: 0.3
+  MaxIrisScale: 0.6
+  IrisSmoothSpeed: 100
+  AudioSampleInterval: 0.05
+  InvertX: 0
+  InvertY: 1
+  CullingDistance: 1.5
+  VelocityEyeSensitivity: 0.5
+  VelocityEyeSmoothing: 0.1
+  IdleEyeMovementEnabled: 1
+  IdleEyeMovementRange: 1
+  IdleEyeMovementInterval: 2
+  ResetToDefault: 0
