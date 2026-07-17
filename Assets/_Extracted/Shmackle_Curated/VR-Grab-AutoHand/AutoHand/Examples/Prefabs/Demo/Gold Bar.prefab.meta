@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9bb646a56126e054d86b5db73c70ad4d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Prefabs/Demo/Gold Bar.prefab
+  uploadId: 732375

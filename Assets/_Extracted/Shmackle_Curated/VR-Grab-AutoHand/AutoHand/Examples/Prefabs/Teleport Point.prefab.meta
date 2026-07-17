@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7cd11d54803f3c143b7a0d76a7cd73a1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Prefabs/Teleport Point.prefab
+  uploadId: 732375

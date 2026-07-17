@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f1f024d25f9fdb9449bb2ceea2825fce
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Materials/Grid Metal 3.mat
+  uploadId: 732375

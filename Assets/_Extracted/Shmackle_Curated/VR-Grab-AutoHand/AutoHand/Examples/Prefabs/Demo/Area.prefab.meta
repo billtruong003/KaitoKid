@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a3bb670a9b28d2141a63e26218525ac4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Prefabs/Demo/Area.prefab
+  uploadId: 732375

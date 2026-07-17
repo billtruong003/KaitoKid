@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bab61c4cf6fa7454088fad34e967108e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Mesh/Environment/CombinedMeshes_AH_Blue_2_-26624.asset
+  uploadId: 732375

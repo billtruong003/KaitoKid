@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 62a776fb34e0cb841aee41947424bd05
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Materials/Red Plastic.mat
+  uploadId: 732375

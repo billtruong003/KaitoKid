@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a4e6bee1e7337c04b8d6869d7d861f8b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Scripts/Demo/Gadget Demo/DialHandScaler.cs
+  uploadId: 732375

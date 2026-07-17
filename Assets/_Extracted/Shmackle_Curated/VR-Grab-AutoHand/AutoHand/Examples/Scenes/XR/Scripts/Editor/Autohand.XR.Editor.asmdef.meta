@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6cef1b5b6d0b36a4ca98e2b71feb1be6
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Scenes/XR/Scripts/Editor/Autohand.XR.Editor.asmdef
+  uploadId: 732375

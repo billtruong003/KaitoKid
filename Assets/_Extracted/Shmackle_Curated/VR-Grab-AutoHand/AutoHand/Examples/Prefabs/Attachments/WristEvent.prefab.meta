@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9dcf0d1336d5a514eb7ebb93424ca5fb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Prefabs/Attachments/WristEvent.prefab
+  uploadId: 732375

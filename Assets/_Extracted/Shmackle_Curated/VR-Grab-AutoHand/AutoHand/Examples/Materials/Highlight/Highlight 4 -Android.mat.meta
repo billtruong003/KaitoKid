@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 878fc687cb5651a4e9e8ab3896d60099
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Materials/Highlight/Highlight 4 -Android.mat
+  uploadId: 732375

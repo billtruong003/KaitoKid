@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 04e57449d514a4a4da319f31abcc1c16
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Materials/Green Plastic.mat
+  uploadId: 732375

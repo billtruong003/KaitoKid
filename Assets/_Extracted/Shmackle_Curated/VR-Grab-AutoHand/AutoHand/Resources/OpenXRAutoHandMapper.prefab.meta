@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 89dc1a640dd4b6a4eb4d7842950c72e5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Resources/OpenXRAutoHandMapper.prefab
+  uploadId: 732375

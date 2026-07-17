@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1eaf431f1222bf14b8ce2870a71a24e5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Prefabs/Gadgets/Lever Stepper.prefab
+  uploadId: 732375

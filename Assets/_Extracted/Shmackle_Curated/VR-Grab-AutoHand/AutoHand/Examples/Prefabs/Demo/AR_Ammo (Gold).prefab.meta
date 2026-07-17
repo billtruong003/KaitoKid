@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f19b310b8ad26514c9c901c29e41321b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Prefabs/Demo/AR_Ammo (Gold).prefab
+  uploadId: 732375

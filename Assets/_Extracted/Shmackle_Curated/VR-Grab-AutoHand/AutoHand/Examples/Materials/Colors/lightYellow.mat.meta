@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: aa2464c1bd0d49c42add70bd01f0a899
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Materials/Colors/lightYellow.mat
+  uploadId: 732375

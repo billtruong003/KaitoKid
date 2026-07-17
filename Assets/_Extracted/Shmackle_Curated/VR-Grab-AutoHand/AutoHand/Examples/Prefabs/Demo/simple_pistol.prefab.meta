@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 587285062fd5a7643a22234c8911d641
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Prefabs/Demo/simple_pistol.prefab
+  uploadId: 732375

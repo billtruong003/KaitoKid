@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 05f51347787698248ba5b0b0afc360cc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Prefabs/Kitchen/Sub.prefab
+  uploadId: 732375

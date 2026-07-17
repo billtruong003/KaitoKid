@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: de388486b68b13a4d91f31b0a53563c0
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Documents/CREDITS.txt
+  uploadId: 732375

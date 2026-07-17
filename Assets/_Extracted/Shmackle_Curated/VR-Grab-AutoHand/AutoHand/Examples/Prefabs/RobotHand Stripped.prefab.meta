@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3a4074cd247974d45ace92f280e4706f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Prefabs/RobotHand Stripped.prefab
+  uploadId: 732375

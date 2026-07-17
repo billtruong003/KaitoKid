@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5af94d863a995fc4fb24176f2fc4fa22
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Materials/RobotHand.mat
+  uploadId: 732375

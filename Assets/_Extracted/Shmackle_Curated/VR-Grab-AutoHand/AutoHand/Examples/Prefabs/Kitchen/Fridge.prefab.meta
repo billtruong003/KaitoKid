@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 714945909acb9dc4f8e8fa4f57e7c278
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Prefabs/Kitchen/Fridge.prefab
+  uploadId: 732375

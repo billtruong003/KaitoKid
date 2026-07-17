@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 51ca29a3cb9fa4a4eafa40b282cf2e53
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Materials/AHGreen.mat
+  uploadId: 732375

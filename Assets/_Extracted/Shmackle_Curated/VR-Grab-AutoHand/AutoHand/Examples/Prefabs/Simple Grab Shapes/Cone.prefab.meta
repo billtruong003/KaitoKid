@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c66cbcb826f757a49891b8850def0b56
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Prefabs/Simple Grab Shapes/Cone.prefab
+  uploadId: 732375

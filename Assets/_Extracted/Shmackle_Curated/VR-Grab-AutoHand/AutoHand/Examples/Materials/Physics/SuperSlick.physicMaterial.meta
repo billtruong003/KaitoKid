@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5c0e15efdbee2a341bd2b974a7583cb1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Materials/Physics/SuperSlick.physicMaterial
+  uploadId: 732375

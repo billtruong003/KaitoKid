@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 43011cbe6a870df46ad59eae43d949c7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Prefabs/Gadgets/Slider.prefab
+  uploadId: 732375

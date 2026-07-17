@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a084d0ecbbd95e64b90e2e263373daf8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Prefabs/Attachments/TeleporterPointer.prefab
+  uploadId: 732375

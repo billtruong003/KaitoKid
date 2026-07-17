@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 91a1eb8fa2674b343bbb047c0353a90e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Scenes/XR/Prefabs/UIPointer.prefab
+  uploadId: 732375

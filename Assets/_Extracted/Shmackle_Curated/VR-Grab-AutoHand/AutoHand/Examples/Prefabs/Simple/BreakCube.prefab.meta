@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4c7db1908c254ab4da9aca5c5980b9a5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Prefabs/Simple/BreakCube.prefab
+  uploadId: 732375

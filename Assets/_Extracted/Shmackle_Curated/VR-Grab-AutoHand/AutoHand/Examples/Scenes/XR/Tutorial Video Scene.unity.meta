@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 605908760f9bbce4e8db978188272a7b
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Scenes/XR/Tutorial Video Scene.unity
+  uploadId: 732375

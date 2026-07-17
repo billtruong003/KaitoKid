@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b90ed6d63b8ec9a47b386a0f23bbcded
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Mesh/Environment/CombinedMeshes_RoundTable.prefab
+  uploadId: 732375

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7d3d7871bdc074299a65a9f8b4803bff
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - dripHolder: {instanceID: 0}
+  - nameText: {instanceID: 0}
+  - descriptionText: {instanceID: 0}
+  - priceText: {instanceID: 0}
+  - dripDataContainer: {fileID: 11400000, guid: 7a3c307a9ebc44b14aac63913ceb9ac3, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

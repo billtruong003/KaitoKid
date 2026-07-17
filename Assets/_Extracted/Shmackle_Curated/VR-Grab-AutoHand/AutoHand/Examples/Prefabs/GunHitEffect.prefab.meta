@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 013ab2c6b8959d84887e37f4f7811e24
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165323
+  packageName: Auto Hand - VR Interaction
+  packageVersion: 4.0.4
+  assetPath: Assets/AutoHand/Examples/Prefabs/GunHitEffect.prefab
+  uploadId: 732375
