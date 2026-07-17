@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VR_ARTacticalVisor
+  m_Shader: {fileID: 4800000, guid: 2f1aa278a778d41779bf74e092d98599, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 9492d339c8ebc4d579f9a567824371a2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _EdgeFade: 1
+    - _EffectProgress: 0.128
+    - _FresnelPower: 2.47
+    - _GridScale: 5
+    - _GridThickness: 0.001
+    - _MaxDistance: 100
+    - _PulseWidth: 2
+    - _ScanProgress: 0
+    - _ScanSpeed: 0
+    - _ScanWidth: 0.1
+    - _TextureScale: 3
+    - _TrailWidth: 0.1
+    m_Colors:
+    - _MainColor: {r: 0, g: 5.9921575, b: 5.9921575, a: 1}
+    - _PulseColor: {r: 1, g: 0, b: 0.01960802, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

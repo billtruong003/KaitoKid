@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MinionsArt_URP_Interactive Snow
+  m_Shader: {fileID: 4800000, guid: d5a0e6abb76e240b5b67071a8afc0366, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 153e588319d774a69af1650a41f2c588, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTexture:
+        m_Texture: {fileID: 2800000, guid: 6c0826300ffcd4ccabaa137a7707ffc8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SparkleNoise:
+        m_Texture: {fileID: 2800000, guid: 31db611d89caa4868ad8d23da099ffc5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _MaxTessellationDistance: 64
+    - _NoiseScale: 100
+    - _NoiseWeight: 3
+    - _POMHeight: 0
+    - _POMSteps: 4
+    - _PathBlending: 2.5
+    - _ProceduralNormalStrength: 5
+    - _RimPower: 20
+    - _SSSPower: 64
+    - _SnowHeight: 0
+    - _SnowPathStrength: 4
+    - _SnowTextureOpacity: 0.8
+    - _SnowTextureScale: 1
+    - _SparkCutoff: 1
+    - _SparkleScale: 10
+    - _TessellationFactor: 32
+    m_Colors:
+    - _PathColorIn: {r: 0.15508187, g: 0.20129469, b: 0.8018868, a: 1}
+    - _PathColorOut: {r: 0, g: 0.5, b: 1, a: 1}
+    - _RimColor: {r: 0.17677669, g: 0.17677669, b: 0.17677669, a: 1}
+    - _SSSColor: {r: 0, g: 0.50196075, b: 1, a: 1}
+    - _ShadowColor: {r: 1.149212, g: 1.2983296, b: 2.1185474, a: 1}
+    - _SnowColor: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -1,0 +1,48 @@
+#pragma kernel ProcessSnowTrails
+
+struct DrawCommandData
+{
+    float2 worldPos;
+    float radius;
+    float strength;
+    float4 brushUVRect; // x,y: start UV in atlas, z,w: size in atlas
+};
+
+Texture2D<float> _PreviousFrameRT;
+RWTexture2D<float> Result;
+StructuredBuffer<DrawCommandData> _DrawCommands;
+Texture2D _BrushAtlas;
+SamplerState sampler_BrushAtlas;
+
+int _DrawCommandCount;
+float4 _TrailAreaParams; // x: centerX, y: centerZ, z: size
+float2 _TextureSize;
+
+[numthreads(8,8,1)]
+void ProcessSnowTrails (uint3 id : SV_DispatchThreadID)
+{
+    float currentDepth = _PreviousFrameRT[id.xy];
+    float2 currentPixelUV = id.xy / _TextureSize;
+
+    // Convert pixel UV to world position
+    float2 worldPos;
+    worldPos.x = (currentPixelUV.x - 0.5) * _TrailAreaParams.z + _TrailAreaParams.x;
+    worldPos.y = (currentPixelUV.y - 0.5) * _TrailAreaParams.z + _TrailAreaParams.y;
+
+    for (int i = 0; i < _DrawCommandCount; i++)
+    {
+        DrawCommandData command = _DrawCommands[i];
+        
+        float2 diff = worldPos - command.worldPos;
+        float2 brushLocalUV = diff / command.radius + 0.5;
+        
+        if (all(saturate(brushLocalUV) == brushLocalUV))
+        {
+            float2 atlasUV = command.brushUVRect.xy + brushLocalUV * command.brushUVRect.zw;
+            float brushValue = _BrushAtlas.SampleLevel(sampler_BrushAtlas, atlasUV, 0).r * command.strength;
+            currentDepth = max(currentDepth, brushValue);
+        }
+    }
+    
+    Result[id.xy] = currentDepth;
+}
