@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d80e9b5b9ed1e4bbb4fc0331475d76, type: 3}
+  m_Name: KitchenPrefab
+  m_EditorClassIdentifier: 
+  prefabList:
+  - name: kitchenCabinetDrawer
+    prefab: {fileID: 919132149155446097, guid: 7046be48385a16a4688a1671890372a5, type: 3}
+  - name: kitchenCabinetUpper
+    prefab: {fileID: 919132149155446097, guid: f5205f82e00f5194386e69ba93cf2378, type: 3}
+  - name: kitchenCabinetUpperLow
+    prefab: {fileID: 919132149155446097, guid: 97737249a62778a44a5de385f4515b4e, type: 3}
+  - name: kitchenFridge
+    prefab: {fileID: 919132149155446097, guid: 10f3f3c8a8e96c340a708d13f23a4de4, type: 3}
+  - name: kitchenStove
+    prefab: {fileID: 919132149155446097, guid: fbe8a93a7211c6a4492234bf48d482bc, type: 3}
+  - name: kitchenCabinet
+    prefab: {fileID: 919132149155446097, guid: 2f7487aa102493649bd19d5b2f282046, type: 3}
+  - name: kitchenCabinetCornerInner
+    prefab: {fileID: 919132149155446097, guid: d64750903f3593d41986126bb61a0d53, type: 3}
+  - name: kitchenBar
+    prefab: {fileID: 919132149155446097, guid: e90d7668078a3764da8a99a02c34c0f3, type: 3}
+  - name: coatRack
+    prefab: {fileID: 919132149155446097, guid: 04046cc67bb57964f82826c1f6a6ead9, type: 3}
+  - name: bathroomCabinetDrawer
+    prefab: {fileID: 919132149155446097, guid: 195684c160de2e54c8f32a90ab24a1d0, type: 3}
+  - name: kitchenStoveElectric
+    prefab: {fileID: 919132149155446097, guid: 8306895091c642445ba24c54b75f05bc, type: 3}
