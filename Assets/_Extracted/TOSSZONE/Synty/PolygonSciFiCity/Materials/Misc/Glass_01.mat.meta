@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a7b7a1e4121a4b9439b69deed85b2968
+timeCreated: 1522892570
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115950
+  packageName: POLYGON - Sci-Fi City Pack - Art by Synty
+  packageVersion: 1.3.2
+  assetPath: Assets/Synty/PolygonSciFiCity/Materials/Misc/Glass_01.mat
+  uploadId: 939484

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c56f306b259b1fa4fb2a7c95fdcb35d4
+timeCreated: 1580692097
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 43609562307998010
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115950
+  packageName: POLYGON - Sci-Fi City Pack - Art by Synty
+  packageVersion: 1.3.2
+  assetPath: Assets/Synty/PolygonSciFiCity/Models/Collision/Convex/SM_Prop_Posters_03_Convex.asset
+  uploadId: 939484

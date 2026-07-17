@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6cde876409b1653459a22ef50bd988eb
+timeCreated: 1522727742
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115950
+  packageName: POLYGON - Sci-Fi City Pack - Art by Synty
+  packageVersion: 1.3.2
+  assetPath: Assets/Synty/PolygonSciFiCity/Materials/Alts/PolygonScifi_01_C.mat
+  uploadId: 939484

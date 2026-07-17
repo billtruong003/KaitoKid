@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: dcc6a0acf25e1904fbf82ff96760c7f8
+timeCreated: 1522892167
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115950
+  packageName: POLYGON - Sci-Fi City Pack - Art by Synty
+  packageVersion: 1.3.2
+  assetPath: Assets/Synty/PolygonSciFiCity/Prefabs/Props/SM_Prop_Overhang_01.prefab
+  uploadId: 939484

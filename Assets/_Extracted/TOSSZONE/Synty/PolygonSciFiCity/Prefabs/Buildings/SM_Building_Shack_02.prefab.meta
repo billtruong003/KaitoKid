@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 34501268ab7300d48b3f58149c8da54e
+timeCreated: 1522905013
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115950
+  packageName: POLYGON - Sci-Fi City Pack - Art by Synty
+  packageVersion: 1.3.2
+  assetPath: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Building_Shack_02.prefab
+  uploadId: 939484

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 17d5c00590666fe4f860fcbb08698b86
+timeCreated: 1523506640
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115950
+  packageName: POLYGON - Sci-Fi City Pack - Art by Synty
+  packageVersion: 1.3.2
+  assetPath: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Bank_01.prefab
+  uploadId: 939484

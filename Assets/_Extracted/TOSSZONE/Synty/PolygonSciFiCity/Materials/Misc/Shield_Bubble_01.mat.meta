@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 13269bc781fd34e4cadfe91fd4d3dfce
+timeCreated: 1522890720
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115950
+  packageName: POLYGON - Sci-Fi City Pack - Art by Synty
+  packageVersion: 1.3.2
+  assetPath: Assets/Synty/PolygonSciFiCity/Materials/Misc/Shield_Bubble_01.mat
+  uploadId: 939484

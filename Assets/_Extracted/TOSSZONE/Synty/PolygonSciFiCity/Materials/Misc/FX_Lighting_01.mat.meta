@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5108f6847dc0ec84f87bd8df16e95fb6
+timeCreated: 1521081596
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115950
+  packageName: POLYGON - Sci-Fi City Pack - Art by Synty
+  packageVersion: 1.3.2
+  assetPath: Assets/Synty/PolygonSciFiCity/Materials/Misc/FX_Lighting_01.mat
+  uploadId: 939484

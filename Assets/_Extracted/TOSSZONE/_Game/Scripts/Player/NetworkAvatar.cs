@@ -1,0 +1,286 @@
+#if PHOTON_FUSION
+using BillGameCore;
+using Fusion;
+using TossZone.Combat;
+using TossZone.Throwing;
+using TossZone.UI;
+using UnityEngine;
+
+namespace TossZone.Player
+{
+    /// <summary>
+    /// Thin networked avatar — one per player. Carries NO AutoHand / camera / physics: only the synced
+    /// transforms (root + head + both wrists) and a colour. The owner (state authority) copies its local
+    /// <see cref="PlayerRig"/> tracking points onto these nodes in <see cref="FixedUpdateNetwork"/>;
+    /// NetworkTransform replicates them; proxies pose the low-poly visuals (head + two forearm "arms"
+    /// stretched to the wrists) in <see cref="Render"/>. Remotes have NO hands — just low-poly arms that
+    /// end at the wrist. Grab/throw is purely local on the toon hands, so nothing about it crosses the wire.
+    /// Replaces the old NetworkPlayerRig (which spawned the whole rig on every client).
+    /// </summary>
+    public class NetworkAvatar : NetworkBehaviour, IBillPlayer
+    {
+        // ── IBillPlayer (T13 — BillGameCore reusable player registry) ──────────────────
+        // Bridges the existing NetworkAvatar/PlayerCombat.Local pattern into Bill.Players instead of replacing
+        // it: every ThrowController/HandWeapon/CatchController/PlayerCombat call built through T1-T12 keeps
+        // working unchanged, while new gameplay code (and future projects reusing BillGameCore) can go through
+        // the framework-level Bill.Players.Local/Get/All API instead of hunting for a project-specific type.
+        PlayerRef IBillPlayer.PlayerRef => Object != null ? Object.InputAuthority : PlayerRef.None;
+        bool IBillPlayer.IsLocal => HasStateAuthority;
+        Transform IBillPlayer.Head => _headNode;
+        Transform IBillPlayer.HandLeft => _wristLNode;
+        Transform IBillPlayer.HandRight => _wristRNode;
+
+        public const int ColorCount = 8;
+        private const string SelfLayerName = "RemoteVisual";   // own avatar layer: main cam culls it, mirror renders it
+
+        /// <summary>The local player's own avatar (the one we hold state authority over). Null until spawned;
+        /// stays valid across scene loads so exactly ONE local avatar carries Main -> Arena. Mirrors
+        /// <see cref="PlayerRig.Local"/>; the spawn manager guards on it because Fusion's player-object
+        /// registry is NOT preserved across a Single-mode networked scene load.</summary>
+        public static NetworkAvatar Local { get; private set; }
+
+        [Header("Synced nodes (each carries its own NetworkTransform)")]
+        [SerializeField] private Transform _headNode;
+        [SerializeField] private Transform _wristLNode;
+        [SerializeField] private Transform _wristRNode;
+
+        [Header("Visuals — proxy only; renderers are disabled for the local owner (first-person)")]
+        [SerializeField] private Transform _shoulderL;
+        [SerializeField] private Transform _shoulderR;
+        [Tooltip("Centre-pivot cube; placed at the shoulder->wrist midpoint and scaled on local Z to reach.")]
+        [SerializeField] private Transform _armL;
+        [SerializeField] private Transform _armR;
+        [Tooltip("Every visual renderer (body, head, both arms): tinted by colour AND hidden for the owner.")]
+        [SerializeField] private Renderer[] _coloredRenderers;
+        [Tooltip("First-person: hide this avatar for its OWNER (you see only your local toon hands). Uncheck to DEBUG the IK on your own avatar in a solo / single-controller test.")]
+        [SerializeField] private bool _hideOwnVisuals = true;
+
+        [Header("Held-ball sync")]
+        [Tooltip("Small sphere renderer parented inside _wristRNode — shown on proxies when the player is holding the ball.")]
+        [SerializeField] private Renderer _heldBallVisual;
+
+        [Networked] public int ColorIndex { get; set; }
+        /// <summary>True while this player has a ball in hand (visible to all clients as a sphere on the wrist).</summary>
+        [Networked] public bool HoldingBall { get; set; }
+
+        [Header("Respawn")]
+        [Tooltip("Seconds after Health hits 0 before the player restores + teleports back to spawn.")]
+        [SerializeField] private float _respawnDelay = 3f;
+        [Networked] private TickTimer RespawnTimer { get; set; }
+        private PlayerCombat _combat;
+
+        private static readonly Color[] _palette =
+        {
+            new Color(0.92f, 0.24f, 0.24f), // 0 red
+            new Color(0.96f, 0.58f, 0.18f), // 1 orange
+            new Color(0.96f, 0.83f, 0.24f), // 2 yellow
+            new Color(0.30f, 0.80f, 0.36f), // 3 green
+            new Color(0.22f, 0.85f, 0.85f), // 4 cyan
+            new Color(0.24f, 0.50f, 0.93f), // 5 blue
+            new Color(0.64f, 0.32f, 0.88f), // 6 purple
+            new Color(0.96f, 0.46f, 0.74f), // 7 pink
+        };
+        private static readonly int _baseColorId = Shader.PropertyToID("_BaseColor");
+        private static readonly int _colorId = Shader.PropertyToID("_Color");
+        private MaterialPropertyBlock _block;
+
+        public override void Spawned()
+        {
+            if (_heldBallVisual != null) _heldBallVisual.enabled = false; // Render() toggles it per-frame for proxies
+
+            // Bind the HealthUI (child of this prefab) to the PlayerCombat on this NetworkObject.
+            HealthUI healthUI = GetComponentInChildren<HealthUI>();
+            _combat = GetComponent<PlayerCombat>();
+            if (healthUI != null && _combat != null) healthUI.Bind(_combat);
+
+            // Initialize per-hand weapon dispatcher and wrist selector (authority = local player only).
+            if (HasStateAuthority && _combat != null)
+            {
+                foreach (HandWeapon hw in GetComponentsInChildren<HandWeapon>())
+                    hw.Initialize(_combat, Runner);
+                WristWeaponSelector wws = GetComponentInChildren<WristWeaponSelector>();
+                wws?.Initialize(_combat);
+            }
+
+            if (HasStateAuthority)
+            {
+                // Claim the local-avatar slot so the spawn manager won't spawn a second one after a scene load.
+                Local = this;
+                // Survive Single-mode networked scene loads (hub -> arena) like the DDOL PlayerRig we follow.
+                // Otherwise Fusion despawns this avatar with the unloading scene (it lives in that scene), Local
+                // clears, and the destination scene's PlayerSpawnManager double-spawns -> two overlapping bodies.
+                // Staying alive keeps Local valid so the spawn guard reuses this one avatar across the load.
+                DontDestroyOnLoad(gameObject);
+                gameObject.name = "Avatar (Local)";
+                // First-person + mirror: put the OWN avatar mesh on the "RemoteVisual" layer. The main camera
+                // CULLS that layer (you don't see yourself from inside your own head) while the MIRROR camera
+                // still RENDERS it (the reflection shows you), and remotes see their own copy normally. Falls
+                // back to disabling the renderers if the layer isn't set up.
+                // (_hideOwnVisuals can be unchecked to DEBUG seeing your own avatar through the main camera.)
+                if (_hideOwnVisuals) ApplySelfLayer();
+            }
+            else
+            {
+                gameObject.name = "Avatar (Remote #" + Object.InputAuthority.PlayerId + ")";
+                SetMeshLayer(0); // proxy → Default so every other player's main camera renders it
+            }
+            ApplyColor();
+            BillPlayers.Register(this);
+        }
+
+        public override void Despawned(NetworkRunner runner, bool hasState)
+        {
+            // Released only when this avatar is genuinely despawned (session end / explicit despawn) — NOT on a
+            // scene load, so the surviving avatar keeps the slot and is reused. Self-heals if it ever is removed.
+            if (Local == this) Local = null;
+            BillPlayers.Unregister(this);
+        }
+
+        public override void FixedUpdateNetwork()
+        {
+            if (!HasStateAuthority) return;
+
+            HandleRespawn();
+
+            PlayerRig rig = PlayerRig.Local;
+            if (rig == null || rig.Root == null) return;
+
+            // Owner drives the synced nodes from the local rig; NetworkTransform replicates them out.
+            // The body must follow the PLAYER, who in VR is wherever the HEAD is (room-scale). The rig root only
+            // moves on joystick locomotion, so using it left the body frozen at spawn while the hands moved away
+            // (arms appeared to stretch out of a static body). Stand the body under the head's ground position.
+            Transform head = rig.Head != null ? rig.Head : rig.Root;
+            Vector3 bodyPos = new Vector3(head.position.x, rig.Root.position.y, head.position.z);
+            Vector3 fwd = head.forward;
+            fwd.y = 0f;
+            Quaternion bodyRot = fwd.sqrMagnitude > 1e-4f ? Quaternion.LookRotation(fwd, Vector3.up) : transform.rotation;
+            transform.SetPositionAndRotation(bodyPos, bodyRot);
+
+            CopyNode(_headNode, rig.Head);
+            CopyNode(_wristLNode, rig.WristL);
+            CopyNode(_wristRNode, rig.WristR);
+
+            // Held-ball state driven from the local throw controller (static bool, zero overhead).
+            HoldingBall = TossZone.Throwing.ThrowController.LocalHoldingBall;
+        }
+
+        // ── Death + respawn (authority = the local owner in Shared Mode) ────────────────
+        // On death, wait _respawnDelay then restore health and teleport the local VR rig back to a spawn point.
+        // Expiry is checked BEFORE (re)arming so the timer doesn't re-arm on the expiry tick (see DummyAvatar).
+        private void HandleRespawn()
+        {
+            if (_combat == null) return;
+
+            if (RespawnTimer.Expired(Runner))
+            {
+                RespawnTimer = default;
+                _combat.RestoreLives();
+                TeleportToSpawn();                // move the local rig (no-op if there's no local rig)
+                if (Bill.IsReady) Bill.Events.Fire(new PlayerRespawnedEvent { IsLocal = true });
+            }
+            else if (_combat.Health <= 0 && !RespawnTimer.IsRunning)
+            {
+                RespawnTimer = TickTimer.CreateFromSeconds(Runner, _respawnDelay);
+            }
+        }
+
+        /// <summary>Authority: called by every client from ArenaManager.RPC_ResetRound at the start of each
+        /// round — clears a stale death-respawn timer (ResetForRound/RestoreLives already handled the health
+        /// side) and repositions to this round's spawn point so side-swap applies to survivors too, not just
+        /// players who died and went through HandleRespawn.</summary>
+        public void ResetForRound()
+        {
+            if (!HasStateAuthority) return;
+            RespawnTimer = default;
+            TeleportToSpawn();
+        }
+
+        private void TeleportToSpawn()
+        {
+            PlayerRig rig = PlayerRig.Local;
+            if (rig == null) return;   // headless / direct-arena: health restored, nothing to move
+            Vector3 pos = ResolveSpawnPos();
+            Autohand.AutoHandPlayer ahp = rig.GetComponentInChildren<Autohand.AutoHandPlayer>()
+                                          ?? FindFirstObjectByType<Autohand.AutoHandPlayer>();
+            if (ahp != null) ahp.SetPosition(pos);
+            else if (rig.Root != null) rig.Root.position = pos;
+        }
+
+        private Vector3 ResolveSpawnPos()
+        {
+            ArenaManager arena = FindFirstObjectByType<ArenaManager>();
+            if (arena != null) return arena.GetSpawnPosition(Object.InputAuthority);
+            return transform.position;   // fallback: restore where you died
+        }
+
+        public override void Render()
+        {
+            if (HasStateAuthority) return;   // owner avatar is hidden; nothing to pose
+            StretchArm(_shoulderL, _armL, _wristLNode);
+            StretchArm(_shoulderR, _armR, _wristRNode);
+            // Held-ball visual: show only when the remote player is holding a ball.
+            // The sphere is a child of _wristRNode so NT interpolation carries it automatically.
+            if (_heldBallVisual != null) _heldBallVisual.enabled = HoldingBall;
+        }
+
+        private static void CopyNode(Transform node, Transform src)
+        {
+            if (node != null && src != null) node.SetPositionAndRotation(src.position, src.rotation);
+        }
+
+        /// <summary>Place the centre-pivot <paramref name="arm"/> cube between shoulder and wrist and scale it to reach.</summary>
+        private static void StretchArm(Transform shoulder, Transform arm, Transform wrist)
+        {
+            if (shoulder == null || arm == null || wrist == null) return;
+            Vector3 a = shoulder.position;
+            Vector3 b = wrist.position;
+            Vector3 dir = b - a;
+            float len = dir.magnitude;
+            if (len < 1e-4f) return;
+            arm.position = (a + b) * 0.5f;                 // centre pivot -> midpoint
+            arm.rotation = Quaternion.LookRotation(dir);   // local +Z aims shoulder -> wrist
+            Vector3 s = arm.localScale;
+            arm.localScale = new Vector3(s.x, s.y, len);   // unit cube spans the full length on Z
+        }
+
+        private void SetVisualsEnabled(bool on)
+        {
+            if (_coloredRenderers == null) return;
+            for (int i = 0; i < _coloredRenderers.Length; i++)
+                if (_coloredRenderers[i] != null) _coloredRenderers[i].enabled = on;
+        }
+
+        /// <summary>Own avatar → the "RemoteVisual" layer (main cam culls, mirror renders). Falls back to hiding
+        /// the renderers if that layer doesn't exist in the project.</summary>
+        private void ApplySelfLayer()
+        {
+            int layer = LayerMask.NameToLayer(SelfLayerName);
+            if (layer >= 0) SetMeshLayer(layer);
+            else SetVisualsEnabled(false);
+        }
+
+        private void SetMeshLayer(int layer)
+        {
+            if (layer < 0 || _coloredRenderers == null) return;
+            for (int i = 0; i < _coloredRenderers.Length; i++)
+                if (_coloredRenderers[i] != null) _coloredRenderers[i].gameObject.layer = layer;
+        }
+
+        private void ApplyColor()
+        {
+            if (_coloredRenderers == null || _coloredRenderers.Length == 0) return;
+            Color c = _palette[Mathf.Clamp(ColorIndex, 0, _palette.Length - 1)];
+            _block ??= new MaterialPropertyBlock();
+            for (int i = 0; i < _coloredRenderers.Length; i++)
+            {
+                Renderer r = _coloredRenderers[i];
+                if (r == null) continue;
+                r.GetPropertyBlock(_block);
+                _block.SetColor(_baseColorId, c);
+                _block.SetColor(_colorId, c);
+                r.SetPropertyBlock(_block);
+            }
+        }
+    }
+}
+#endif

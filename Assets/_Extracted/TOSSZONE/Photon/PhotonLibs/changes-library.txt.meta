@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 5ed8d3bcae990d04ab1ed8ca6b4bc48d
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 267958
+  packageName: Photon Fusion
+  packageVersion: 2.0.12
+  assetPath: Assets/Photon/PhotonLibs/changes-library.txt
+  uploadId: 888248

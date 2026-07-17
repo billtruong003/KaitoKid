@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 37c61c0738798ba47b3116c701b9d98c
+timeCreated: 1580692200
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 43086783146313884
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115950
+  packageName: POLYGON - Sci-Fi City Pack - Art by Synty
+  packageVersion: 1.3.2
+  assetPath: Assets/Synty/PolygonSciFiCity/Models/Collision/Convex/SM_Prop_Crate_Military_03_Convex.asset
+  uploadId: 939484

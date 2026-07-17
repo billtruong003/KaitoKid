@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0cda0789647cf5f47b63cf883dad026b
+timeCreated: 1522905115
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115950
+  packageName: POLYGON - Sci-Fi City Pack - Art by Synty
+  packageVersion: 1.3.2
+  assetPath: Assets/Synty/PolygonSciFiCity/Prefabs/Environments/SM_Env_Tree_01.prefab
+  uploadId: 939484

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9cabea4bd3ca2a64c9f648baca43b3d3
+timeCreated: 1523512391
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115950
+  packageName: POLYGON - Sci-Fi City Pack - Art by Synty
+  packageVersion: 1.3.2
+  assetPath: Assets/Synty/PolygonSciFiCity/Prefabs/Icons/SM_Icon_Gun_01.prefab
+  uploadId: 939484

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10791fc1140266d44a19177728df2c8a, type: 3}
+  m_Name: WC_CrossBomb
+  m_EditorClassIdentifier: Assembly-CSharp::TossZone.Combat.WeaponConfig
+  id: crossbomb
+  displayName: "Bom Ch\u1EEF X"
+  icon: {fileID: 0}
+  cost: 13
+  acquireMode: 1
+  unlockTime: 20
+  cooldown: 2.3
+  magazine: 1
+  handSource: 0
+  heldPrefab: {fileID: 1553852837966599634, guid: 39abeab0075cca240b0bb3949a74f000, type: 3}
+  holdPositionOffset: {x: 0, y: 0, z: 0}
+  holdRotationOffset: {x: 0, y: 0, z: 0}
+  holdScale: 1.3
+  fireMode: 0
+  throwConfig: {fileID: 0}
+  projectilePrefab: {fileID: 0}
+  muzzleSpeed: 12
+  fireRate: 2
+  damage: 2
+  aoeRadius: 1.1
+  projectileVisual: {fileID: 0}
+  projectileVisualScale: 1
+  crossFireZones: 1
+  crossZoneWidth: 1.1
+  crossZoneLength: 5.64
+  crossZoneSeconds: 3
+  fuseDelay: 0
+  projectileGravity: 0
+  laserSight: 0
+  attacksPlayers: 1
+  canDeflect: 0
+  isUncatchable: 0

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a002cee0d70d38a46a8e088b73f4dbb9
+timeCreated: 1580692107
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 43198989629816002
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115950
+  packageName: POLYGON - Sci-Fi City Pack - Art by Synty
+  packageVersion: 1.3.2
+  assetPath: Assets/Synty/PolygonSciFiCity/Models/Collision/Convex/SM_Prop_Box_RobotParts_01_Convex.asset
+  uploadId: 939484

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a01fe939a62e85945baefce9beaf8c3f
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 267958
+  packageName: Photon Fusion
+  packageVersion: 2.0.12
+  assetPath: Assets/Photon/Fusion/Editor/Fusion.Unity.Editor.asmdef
+  uploadId: 888248

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 409da5bb4f4d422438b994ae16baaace
+timeCreated: 1523505986
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115950
+  packageName: POLYGON - Sci-Fi City Pack - Art by Synty
+  packageVersion: 1.3.2
+  assetPath: Assets/Synty/PolygonSciFiCity/Prefabs/Buildings/SM_Bld_Chopshop_01.prefab
+  uploadId: 939484
